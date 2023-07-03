@@ -1,0 +1,603 @@
+0000.000 (0) Opened log file at time: Thu, 28 Apr 2022 15:58:30 +0000 on https://leogdion.name
+0000.002 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.22.3 WP: 5.9.3 PHP: 7.4.29 (cgi-fcgi, Linux us86.siteground.us 3.12.18-clouder0 #2 SMP PREEMPT Mon Mar 7 20:55:37 EET 2022 x86_64) MySQL: 5.7.32-35-log (max packet size=33554432) WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 768M (used: 74.8M | 78M) multisite: N openssl: OpenSSL 1.1.1n FIPS  18 Mar 2022 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.002 (0) Free space on disk containing Updraft's temporary directory: 1024705.1 MB
+0000.003 (0) Tasks: Backup files: 1 (schedule: weekly) Backup DB:  (schedule: weekly)
+0000.004 (0) Processed schedules. Combining jobs from identical schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.012 (0) Requesting semaphore lock (fd) (apparently via scheduler: last_scheduled_action_called_at=1650556525, seconds_ago=604985)
+0000.013 (0) Set semaphore last lock (fd) time to 2022-04-28 15:58:30
+0000.014 (0) Semaphore lock (fd) complete
+0000.016 (0) Backup run: resumption=0, nonce=ecf7cd66c26f, file_nonce=ecf7cd66c26f begun at=1651161510 (0s ago), job type=backup
+0000.017 (0) Scheduling a resumption (1) after 300 seconds (1651161810) in case this run gets aborted
+0000.027 (0) Checking if we have a zip executable available
+0000.027 (0) Testing: /usr/bin/zip
+0000.031 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.032 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.032 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.033 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.033 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.044 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.045 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.049 (0) Working binary zip found: /usr/bin/zip
+0000.050 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.051 (0) Creation of backups of directories: beginning
+0000.053 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.350 (0) Total entities for the zip file: 1655 directories, 8882 files (0 skipped as non-modified), 112.1 MB
+0000.355 (0) Zip: backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.359 (0) Zip: backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.363 (0) Zip: backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.367 (0) Zip: backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.370 (0) Zip: backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0000.373 (0) Zip: backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-plugins.zip.tmp: 600 files added (on-disk size: 0 KB)
+0000.376 (0) Zip: backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-plugins.zip.tmp: 700 files added (on-disk size: 0 KB)
+0000.379 (0) Zip: backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-plugins.zip.tmp: 800 files added (on-disk size: 0 KB)
+0000.382 (0) Zip: backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-plugins.zip.tmp: 900 files added (on-disk size: 0 KB)
+0000.385 (0) Zip: backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-plugins.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0000.386 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (7.7 MB, 8882 files batched, 1001 (1001) added so far); re-opening (prior size: 0 KB)
+0000.827 (0) backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-plugins.zip.tmp: size is now: 3.40 MB
+0000.831 (0) Zip: backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-plugins.zip.tmp: 1100 files added (on-disk size: 3485.7 KB)
+0000.835 (0) Zip: backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-plugins.zip.tmp: 1200 files added (on-disk size: 3485.7 KB)
+0000.839 (0) Zip: backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-plugins.zip.tmp: 1300 files added (on-disk size: 3485.7 KB)
+0000.842 (0) Zip: backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-plugins.zip.tmp: 1400 files added (on-disk size: 3485.7 KB)
+0000.845 (0) Zip: backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-plugins.zip.tmp: 1500 files added (on-disk size: 3485.7 KB)
+0000.849 (0) Zip: backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-plugins.zip.tmp: 1600 files added (on-disk size: 3485.7 KB)
+0000.852 (0) Zip: backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-plugins.zip.tmp: 1700 files added (on-disk size: 3485.7 KB)
+0000.856 (0) Zip: backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-plugins.zip.tmp: 1800 files added (on-disk size: 3485.7 KB)
+0000.859 (0) Zip: backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-plugins.zip.tmp: 1900 files added (on-disk size: 3485.7 KB)
+0000.863 (0) Zip: backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-plugins.zip.tmp: 2000 files added (on-disk size: 3485.7 KB)
+0000.863 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (21.6 MB, 8882 files batched, 1001 (2002) added so far); re-opening (prior size: 3485.7 KB)
+0001.714 (0) backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-plugins.zip.tmp: size is now: 10.80 MB
+0001.718 (0) Zip: backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-plugins.zip.tmp: 2100 files added (on-disk size: 11061.1 KB)
+0001.722 (0) Zip: backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-plugins.zip.tmp: 2200 files added (on-disk size: 11061.1 KB)
+0001.724 (0) Zip: backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-plugins.zip.tmp: 2300 files added (on-disk size: 11061.1 KB)
+0001.727 (0) Zip: backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-plugins.zip.tmp: 2400 files added (on-disk size: 11061.1 KB)
+0001.730 (0) Zip: backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-plugins.zip.tmp: 2500 files added (on-disk size: 11061.1 KB)
+0001.735 (0) Zip: backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-plugins.zip.tmp: 2600 files added (on-disk size: 11061.1 KB)
+0001.739 (0) Zip: backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-plugins.zip.tmp: 2700 files added (on-disk size: 11061.1 KB)
+0001.742 (0) Zip: backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-plugins.zip.tmp: 2800 files added (on-disk size: 11061.1 KB)
+0001.746 (0) Zip: backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-plugins.zip.tmp: 2900 files added (on-disk size: 11061.1 KB)
+0001.749 (0) Zip: backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-plugins.zip.tmp: 3000 files added (on-disk size: 11061.1 KB)
+0001.750 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (8.9 MB, 8882 files batched, 1001 (3003) added so far); re-opening (prior size: 11061.1 KB)
+0002.162 (0) backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-plugins.zip.tmp: size is now: 13.60 MB
+0002.167 (0) Zip: backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-plugins.zip.tmp: 3100 files added (on-disk size: 13888.3 KB)
+0002.170 (0) Zip: backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-plugins.zip.tmp: 3200 files added (on-disk size: 13888.3 KB)
+0002.173 (0) Zip: backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-plugins.zip.tmp: 3300 files added (on-disk size: 13888.3 KB)
+0002.176 (0) Zip: backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-plugins.zip.tmp: 3400 files added (on-disk size: 13888.3 KB)
+0002.181 (0) Zip: backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-plugins.zip.tmp: 3500 files added (on-disk size: 13888.3 KB)
+0002.184 (0) Zip: backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-plugins.zip.tmp: 3600 files added (on-disk size: 13888.3 KB)
+0002.187 (0) Zip: backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-plugins.zip.tmp: 3700 files added (on-disk size: 13888.3 KB)
+0002.190 (0) Zip: backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-plugins.zip.tmp: 3800 files added (on-disk size: 13888.3 KB)
+0002.194 (0) Zip: backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-plugins.zip.tmp: 3900 files added (on-disk size: 13888.3 KB)
+0002.197 (0) Zip: backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-plugins.zip.tmp: 4000 files added (on-disk size: 13888.3 KB)
+0002.198 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (21 MB, 8882 files batched, 1001 (4004) added so far); re-opening (prior size: 13888.3 KB)
+0003.153 (0) backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-plugins.zip.tmp: size is now: 19.60 MB
+0003.158 (0) Zip: backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-plugins.zip.tmp: 4100 files added (on-disk size: 20090.7 KB)
+0003.162 (0) Zip: backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-plugins.zip.tmp: 4200 files added (on-disk size: 20090.7 KB)
+0003.165 (0) Zip: backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-plugins.zip.tmp: 4300 files added (on-disk size: 20090.7 KB)
+0003.168 (0) Zip: backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-plugins.zip.tmp: 4400 files added (on-disk size: 20090.7 KB)
+0003.171 (0) Zip: backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-plugins.zip.tmp: 4500 files added (on-disk size: 20090.7 KB)
+0003.175 (0) Zip: backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-plugins.zip.tmp: 4600 files added (on-disk size: 20090.7 KB)
+0003.178 (0) Zip: backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-plugins.zip.tmp: 4700 files added (on-disk size: 20090.7 KB)
+0003.181 (0) Zip: backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-plugins.zip.tmp: 4800 files added (on-disk size: 20090.7 KB)
+0003.185 (0) Zip: backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-plugins.zip.tmp: 4900 files added (on-disk size: 20090.7 KB)
+0003.188 (0) Zip: backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-plugins.zip.tmp: 5000 files added (on-disk size: 20090.7 KB)
+0003.189 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (8 MB, 8882 files batched, 1001 (5005) added so far); re-opening (prior size: 20090.7 KB)
+0003.611 (0) Zip: backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-plugins.zip.tmp: 5100 files added (on-disk size: 22442.4 KB)
+0003.615 (0) Zip: backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-plugins.zip.tmp: 5200 files added (on-disk size: 22442.4 KB)
+0003.618 (0) Zip: backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-plugins.zip.tmp: 5300 files added (on-disk size: 22442.4 KB)
+0003.621 (0) Zip: backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-plugins.zip.tmp: 5400 files added (on-disk size: 22442.4 KB)
+0003.624 (0) Zip: backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-plugins.zip.tmp: 5500 files added (on-disk size: 22442.4 KB)
+0003.627 (0) Zip: backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-plugins.zip.tmp: 5600 files added (on-disk size: 22442.4 KB)
+0003.631 (0) Zip: backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-plugins.zip.tmp: 5700 files added (on-disk size: 22442.4 KB)
+0003.634 (0) Zip: backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-plugins.zip.tmp: 5800 files added (on-disk size: 22442.4 KB)
+0003.637 (0) Zip: backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-plugins.zip.tmp: 5900 files added (on-disk size: 22442.4 KB)
+0003.640 (0) Zip: backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-plugins.zip.tmp: 6000 files added (on-disk size: 22442.4 KB)
+0003.641 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (15.9 MB, 8882 files batched, 1001 (6006) added so far); re-opening (prior size: 22442.4 KB)
+0004.706 (0) backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-plugins.zip.tmp: size is now: 28.20 MB
+0004.710 (0) Zip: backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-plugins.zip.tmp: 6100 files added (on-disk size: 28873 KB)
+0004.714 (0) Zip: backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-plugins.zip.tmp: 6200 files added (on-disk size: 28873 KB)
+0004.717 (0) Zip: backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-plugins.zip.tmp: 6300 files added (on-disk size: 28873 KB)
+0004.721 (0) Zip: backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-plugins.zip.tmp: 6400 files added (on-disk size: 28873 KB)
+0004.724 (0) Zip: backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-plugins.zip.tmp: 6500 files added (on-disk size: 28873 KB)
+0004.727 (0) Zip: backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-plugins.zip.tmp: 6600 files added (on-disk size: 28873 KB)
+0004.731 (0) Zip: backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-plugins.zip.tmp: 6700 files added (on-disk size: 28873 KB)
+0004.734 (0) Zip: backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-plugins.zip.tmp: 6800 files added (on-disk size: 28873 KB)
+0004.737 (0) Zip: backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-plugins.zip.tmp: 6900 files added (on-disk size: 28873 KB)
+0004.741 (0) Zip: backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-plugins.zip.tmp: 7000 files added (on-disk size: 28873 KB)
+0004.742 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (3.2 MB, 8882 files batched, 1001 (7007) added so far); re-opening (prior size: 28873 KB)
+0005.080 (0) Zip: backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-plugins.zip.tmp: 7100 files added (on-disk size: 30207.8 KB)
+0005.084 (0) Zip: backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-plugins.zip.tmp: 7200 files added (on-disk size: 30207.8 KB)
+0005.088 (0) Zip: backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-plugins.zip.tmp: 7300 files added (on-disk size: 30207.8 KB)
+0005.091 (0) Zip: backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-plugins.zip.tmp: 7400 files added (on-disk size: 30207.8 KB)
+0005.094 (0) Zip: backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-plugins.zip.tmp: 7500 files added (on-disk size: 30207.8 KB)
+0005.098 (0) Zip: backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-plugins.zip.tmp: 7600 files added (on-disk size: 30207.8 KB)
+0005.101 (0) Zip: backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-plugins.zip.tmp: 7700 files added (on-disk size: 30207.8 KB)
+0005.106 (0) Zip: backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-plugins.zip.tmp: 7800 files added (on-disk size: 30207.8 KB)
+0005.109 (0) Zip: backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-plugins.zip.tmp: 7900 files added (on-disk size: 30207.8 KB)
+0005.113 (0) Zip: backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-plugins.zip.tmp: 8000 files added (on-disk size: 30207.8 KB)
+0005.114 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (10 MB, 8882 files batched, 1001 (8008) added so far); re-opening (prior size: 30207.8 KB)
+0005.783 (0) Zip: backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-plugins.zip.tmp: 8100 files added (on-disk size: 33630 KB)
+0005.787 (0) Zip: backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-plugins.zip.tmp: 8200 files added (on-disk size: 33630 KB)
+0005.792 (0) Zip: backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-plugins.zip.tmp: 8300 files added (on-disk size: 33630 KB)
+0005.796 (0) Zip: backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-plugins.zip.tmp: 8400 files added (on-disk size: 33630 KB)
+0005.800 (0) Zip: backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-plugins.zip.tmp: 8500 files added (on-disk size: 33630 KB)
+0005.805 (0) Zip: backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-plugins.zip.tmp: 8600 files added (on-disk size: 33630 KB)
+0005.809 (0) Zip: backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-plugins.zip.tmp: 8700 files added (on-disk size: 33630 KB)
+0005.812 (0) Zip: backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-plugins.zip.tmp: 8800 files added (on-disk size: 33630 KB)
+0006.592 (0) Creating zip file manifest (/home/customer/www/leogdion.name/public_html/wp-content/updraft/backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-plugins.zip.list-temp.tmp)
+0006.634 (0) Successfully created zip file manifest (size: 718470)
+0006.985 (0) Created plugins zip (0) - 39415.3 KB in 6.9 s (5687.3 KB/s) (sha1: bf4831d4f9323254d3d9c431744950620b32b505, sha256: 00ec8b55f7a2a15f1ec80fca20d0ed29a39b41c2c19f992ac7f2886c6eefac91)
+0006.986 (0) Beginning creation of dump of themes (split every: 400 MB)
+0007.000 (0) Total entities for the zip file: 70 directories, 398 files (0 skipped as non-modified), 8.4 MB
+0007.002 (0) Zip: backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0007.005 (0) Zip: backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0007.007 (0) Zip: backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0007.231 (0) backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-themes.zip.tmp: size is now: 7.00 MB
+0007.238 (0) Creating zip file manifest (/home/customer/www/leogdion.name/public_html/wp-content/updraft/backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-themes.zip.list-temp.tmp)
+0007.241 (0) Successfully created zip file manifest (size: 26414)
+0007.307 (0) Created themes zip (0) - 7209.1 KB in 0.3 s (22566.2 KB/s) (sha1: 9fe181e8b21f1d629ddda8200cdd259451191c95, sha256: c49001335b1ec0243e3fe0deaaef4753c8372955fbb4f1b58e6052f13509d769)
+0007.309 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0007.309 (0) Looking for candidates to backup in: /home/customer/www/leogdion.name/public_html/wp-content/uploads
+0007.310 (0) finding files: sucuri: adding to list (1)
+0007.310 (0) finding files: 2017: adding to list (2)
+0007.310 (0) finding files: fig_uploads: adding to list (3)
+0007.311 (0) finding files: 2021: adding to list (4)
+0007.311 (0) finding files: 2020: adding to list (5)
+0007.312 (0) finding files: 2018: adding to list (6)
+0007.312 (0) finding files: 2022: adding to list (7)
+0007.312 (0) finding files: ithemes-security: adding to list (8)
+0007.313 (0) finding files: .DS_Store: adding to list (9)
+0007.313 (0) finding files: siteground-optimizer-assets: adding to list (10)
+0007.314 (0) finding files: .htaccess: adding to list (11)
+0007.314 (0) finding files: custom-css-js: adding to list (12)
+0007.314 (0) finding files: 2019: adding to list (13)
+0007.315 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0007.331 (0) Total entities for the zip file: 69 directories, 445 files (0 skipped as non-modified), 96.3 MB
+0007.334 (0) Zip: backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0007.336 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25.1 MB, 445 files batched, 136 (136) added so far); re-opening (prior size: 0 KB)
+0007.621 (0) backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-uploads.zip.tmp: size is now: 23.60 MB
+0007.623 (0) A useful amount of data was added after this amount of zip processing: 1.3 s (normalised: 1.3 s, rate: 19748.3 KB/s)
+0007.624 (0) Performance is good - will increase the amount of data we attempt to batch (time=1.3033030033112, normalised_time=1.2963156451925, max_time=7.6232821941376, data points known=1, old_max_bytes=26214400, new_max_bytes=121333411)
+0007.627 (0) Zip: backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-uploads.zip.tmp: 200 files added (on-disk size: 24130.5 KB)
+0007.631 (0) Zip: backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-uploads.zip.tmp: 300 files added (on-disk size: 24130.5 KB)
+0007.635 (0) Zip: backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-uploads.zip.tmp: 400 files added (on-disk size: 24130.5 KB)
+0008.290 (0) backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-uploads.zip.tmp: size is now: 94.80 MB
+0008.295 (0) Creating zip file manifest (/home/customer/www/leogdion.name/public_html/wp-content/updraft/backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-uploads.zip.list-temp.tmp)
+0008.298 (0) Successfully created zip file manifest (size: 33037)
+0009.234 (0) Created uploads zip (0) - 97069.7 KB in 1.9 s (50603.4 KB/s) (sha1: 7722f9eaa8b3e8ec5d14dc0f2421c8814741642f, sha256: a9b47146e8346a71433b18cadfed6e264c9b1d97fb175c700851e3ac2240303a)
+0009.236 (0) Beginning backup of other directories found in the content directory (index: 0)
+0009.237 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0009.238 (0) Looking for candidates to backup in: /home/customer/www/leogdion.name/public_html/wp-content
+0009.238 (0) finding files: wflogs: adding to list (1)
+0009.238 (0) finding files: object-cache.php.bak: adding to list (2)
+0009.239 (0) finding files: upgrade: skipping: excluded by options
+0009.239 (0) finding files: plugins: skipping: this is the plugins directory
+0009.239 (0) finding files: uploads: skipping: this is the uploads directory
+0009.240 (0) finding files: .DS_Store: adding to list (3)
+0009.240 (0) finding files: .htaccess: adding to list (4)
+0009.240 (0) finding files: updraft: skipping: this is the updraft directory
+0009.241 (0) finding files: themes: skipping: this is the themes directory
+0009.241 (0) finding files: index.php: adding to list (5)
+0009.243 (0) Total entities for the zip file: 1 directories, 14 files (0 skipped as non-modified), 5.8 MB
+0009.664 (0) backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-others.zip.tmp: size is now: 2.70 MB
+0009.667 (0) Creating zip file manifest (/home/customer/www/leogdion.name/public_html/wp-content/updraft/backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-others.zip.list-temp.tmp)
+0009.667 (0) Successfully created zip file manifest (size: 432)
+0009.707 (0) Created others zip (0) - 2802.2 KB in 0.5 s (6020.8 KB/s) (sha1: 699817a1ee9931922136223dcb158d4de5dccf02, sha256: 7b810b47eb0a60ef2f62cb891b1d3688f9d9771855e968ae09c9fa1888445d9d)
+0009.711 (0) Saving backup status to database (elements: 8)
+0009.713 (0) Beginning creation of database dump (WordPress DB)
+0009.714 (0) SQL compatibility mode is: NO_ENGINE_SUBSTITUTION
+0009.715 (0) Testing potential mysqldump binary: /usr/bin/mysqldump
+0009.729 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `wpu0_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!40101 SET character_set_client = utf8 */;\nC (truncated - 1426 bytes total)
+0009.730 (0) Working binary mysqldump found: /usr/bin/mysqldump
+0009.753 (0) Table wpu0_options: Total expected rows (via COUNT): 485
+0009.754 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0009.768 (0) Table wpu0_options: Rows added in this batch (next record: 2667649): 481 (uncompressed bytes in this segment=323954) in 0.02 seconds
+0009.772 (0) Table wpu0_options: finishing file(s) (2, 69.1 KB)
+0009.776 (0) Table wpu0_users: Total expected rows (via COUNT): 2
+0009.776 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0009.777 (0) Table wpu0_users: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=1294) in 0.00 seconds
+0009.779 (0) Table wpu0_users: finishing file(s) (2, 0.6 KB)
+0009.782 (0) Table wpu0_usermeta: Total expected rows (via COUNT): 68
+0009.782 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0009.784 (0) Table wpu0_usermeta: Rows added in this batch (next record: 82): 68 (uncompressed bytes in this segment=5334) in 0.00 seconds
+0009.786 (0) Table wpu0_usermeta: finishing file(s) (2, 2.4 KB)
+0009.790 (0) Table wpu0_commentmeta: Total expected rows (via COUNT): 0
+0009.791 (0) Table wpu0_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=601) in 0.00 seconds
+0009.794 (0) Table wpu0_commentmeta: finishing file(s) (2, 0.4 KB)
+0009.800 (0) Table wpu0_comments: Total expected rows (via COUNT): 0
+0009.801 (0) Table wpu0_comments: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1435) in 0.00 seconds
+0009.803 (0) Table wpu0_comments: finishing file(s) (2, 0.5 KB)
+0009.805 (0) Table wpu0_itsec_bans: Total expected rows (via COUNT): 1
+0009.806 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0009.807 (0) Table wpu0_itsec_bans: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1012) in 0.00 seconds
+0009.809 (0) Table wpu0_itsec_bans: finishing file(s) (2, 0.5 KB)
+0009.813 (0) Table wpu0_itsec_dashboard_events: Total expected rows (via COUNT): 4
+0009.813 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0009.814 (0) Table wpu0_itsec_dashboard_events: Rows added in this batch (next record: 10): 4 (uncompressed bytes in this segment=1121) in 0.00 seconds
+0009.816 (0) Table wpu0_itsec_dashboard_events: finishing file(s) (2, 0.5 KB)
+0009.821 (0) Table wpu0_itsec_distributed_storage: Total expected rows (via COUNT): 18
+0009.822 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0009.911 (0) Table wpu0_itsec_distributed_storage: Rows added in this batch (next record: 689): 18 (uncompressed bytes in this segment=4267872) in 0.09 seconds
+0009.914 (0) Table wpu0_itsec_distributed_storage: finishing file(s) (2, 624.8 KB)
+0009.919 (0) Table wpu0_itsec_fingerprints: Total expected rows (via COUNT): 0
+0009.920 (0) Table wpu0_itsec_fingerprints: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1235) in 0.00 seconds
+0009.923 (0) Table wpu0_itsec_fingerprints: finishing file(s) (2, 0.5 KB)
+0009.928 (0) Table wpu0_itsec_geolocation_cache: Total expected rows (via COUNT): 0
+0009.928 (0) Table wpu0_itsec_geolocation_cache: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=949) in 0.00 seconds
+0009.930 (0) Table wpu0_itsec_geolocation_cache: finishing file(s) (2, 0.4 KB)
+0009.933 (0) Table wpu0_itsec_lockouts: Total expected rows (via COUNT): 0
+0009.934 (0) Table wpu0_itsec_lockouts: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1221) in 0.00 seconds
+0009.935 (0) Table wpu0_itsec_lockouts: finishing file(s) (2, 0.5 KB)
+0009.939 (0) Table wpu0_itsec_logs: Total expected rows (via COUNT): 322
+0009.939 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0009.945 (0) Table wpu0_itsec_logs: Rows added in this batch (next record: 28599): 322 (uncompressed bytes in this segment=145847) in 0.01 seconds
+0009.948 (0) Table wpu0_itsec_logs: finishing file(s) (2, 11 KB)
+0009.952 (0) Table wpu0_itsec_mutexes: Total expected rows (via COUNT): 0
+0009.953 (0) Table wpu0_itsec_mutexes: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=612) in 0.00 seconds
+0009.955 (0) Table wpu0_itsec_mutexes: finishing file(s) (2, 0.4 KB)
+0009.957 (0) Table wpu0_itsec_opaque_tokens: Total expected rows (approximate): 0
+0009.957 (0) Table wpu0_itsec_opaque_tokens: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=779) in 0.00 seconds
+0009.959 (0) Table wpu0_itsec_opaque_tokens: finishing file(s) (2, 0.4 KB)
+0009.962 (0) Table wpu0_itsec_temp: Total expected rows (via COUNT): 0
+0009.962 (0) Table wpu0_itsec_temp: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=915) in 0.00 seconds
+0009.964 (0) Table wpu0_itsec_temp: finishing file(s) (2, 0.4 KB)
+0009.967 (0) Table wpu0_itsec_user_groups: Total expected rows (approximate): 5
+0009.968 (0) Table wpu0_itsec_user_groups: Rows added in this batch (next record: 1000): 5 (uncompressed bytes in this segment=1446) in 0.00 seconds
+0009.969 (0) Table wpu0_itsec_user_groups: finishing file(s) (2, 0.6 KB)
+0009.973 (0) Table wpu0_links: Total expected rows (via COUNT): 0
+0009.974 (0) Table wpu0_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1009) in 0.00 seconds
+0009.976 (0) Table wpu0_links: finishing file(s) (2, 0.4 KB)
+0009.979 (0) Table wpu0_postmeta: Total expected rows (via COUNT): 299
+0009.980 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0009.984 (0) Table wpu0_postmeta: Rows added in this batch (next record: 591): 299 (uncompressed bytes in this segment=99354) in 0.01 seconds
+0009.986 (0) Table wpu0_postmeta: finishing file(s) (2, 10.6 KB)
+0009.992 (0) Table wpu0_posts: Total expected rows (via COUNT): 151
+0009.993 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0010.038 (0) Table wpu0_posts: Rows added in this batch (next record: 366): 151 (uncompressed bytes in this segment=2085483) in 0.05 seconds
+0010.041 (0) Table wpu0_posts: finishing file(s) (2, 96.1 KB)
+0010.044 (0) Table wpu0_term_relationships: Total expected rows (approximate): 15
+0010.045 (0) Table wpu0_term_relationships: Rows added in this batch (next record: 100000): 15 (uncompressed bytes in this segment=872) in 0.00 seconds
+0010.047 (0) Table wpu0_term_relationships: finishing file(s) (2, 0.4 KB)
+0010.050 (0) Table wpu0_term_taxonomy: Total expected rows (via COUNT): 6
+0010.050 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0010.052 (0) Table wpu0_term_taxonomy: Rows added in this batch (next record: 6): 6 (uncompressed bytes in this segment=999) in 0.00 seconds
+0010.054 (0) Table wpu0_term_taxonomy: finishing file(s) (2, 0.5 KB)
+0010.057 (0) Table wpu0_termmeta: Total expected rows (via COUNT): 0
+0010.058 (0) Table wpu0_termmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=574) in 0.00 seconds
+0010.061 (0) Table wpu0_termmeta: finishing file(s) (2, 0.4 KB)
+0010.064 (0) Table wpu0_terms: Total expected rows (via COUNT): 6
+0010.065 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0010.066 (0) Table wpu0_terms: Rows added in this batch (next record: 6): 6 (uncompressed bytes in this segment=829) in 0.00 seconds
+0010.068 (0) Table wpu0_terms: finishing file(s) (2, 0.5 KB)
+0010.072 (0) Table wpu0_ewwwio_images: Total expected rows (via COUNT): 34
+0010.073 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0010.074 (0) Table wpu0_ewwwio_images: Rows added in this batch (next record: 34): 34 (uncompressed bytes in this segment=8359) in 0.00 seconds
+0010.076 (0) Table wpu0_ewwwio_images: finishing file(s) (2, 1.7 KB)
+0010.079 (0) Table wpu0_redirection_404: Total expected rows (via COUNT): 148
+0010.079 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0010.082 (0) Table wpu0_redirection_404: Rows added in this batch (next record: 204938): 148 (uncompressed bytes in this segment=39767) in 0.00 seconds
+0010.084 (0) Table wpu0_redirection_404: finishing file(s) (2, 4.5 KB)
+0010.088 (0) Table wpu0_redirection_groups: Total expected rows (via COUNT): 2
+0010.089 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0010.090 (0) Table wpu0_redirection_groups: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=977) in 0.00 seconds
+0010.092 (0) Table wpu0_redirection_groups: finishing file(s) (2, 0.5 KB)
+0010.094 (0) Table wpu0_redirection_items: Total expected rows (via COUNT): 1
+0010.095 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0010.096 (0) Table wpu0_redirection_items: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1725) in 0.00 seconds
+0010.098 (0) Table wpu0_redirection_items: finishing file(s) (2, 0.6 KB)
+0010.102 (0) Table wpu0_redirection_logs: Total expected rows (via COUNT): 0
+0010.103 (0) Table wpu0_redirection_logs: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1250) in 0.00 seconds
+0010.105 (0) Table wpu0_redirection_logs: finishing file(s) (2, 0.5 KB)
+0010.107 (0) Table wpu0_wfBlockedIPLog: Total expected rows (approximate): 12
+0010.108 (0) Table wpu0_wfBlockedIPLog: Rows added in this batch (next record: 1000): 9 (uncompressed bytes in this segment=1245) in 0.00 seconds
+0010.110 (0) Table wpu0_wfBlockedIPLog: finishing file(s) (2, 0.5 KB)
+0010.112 (0) Table wpu0_wfBlocks7: Total expected rows (via COUNT): 0
+0010.113 (0) Table wpu0_wfBlocks7: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=823) in 0.00 seconds
+0010.114 (0) Table wpu0_wfBlocks7: finishing file(s) (2, 0.4 KB)
+0010.116 (0) Table wpu0_wfConfig: Total expected rows (approximate): 278
+0010.163 (0) Table wpu0_wfConfig: Rows added in this batch (next record: 1000): 282 (uncompressed bytes in this segment=887196) in 0.05 seconds
+0010.165 (0) Table wpu0_wfConfig: finishing file(s) (2, 437.3 KB)
+0010.168 (0) Table wpu0_wfCrawlers: Total expected rows (approximate): 7
+0010.168 (0) Table wpu0_wfCrawlers: Rows added in this batch (next record: 1000): 11 (uncompressed bytes in this segment=2090) in 0.00 seconds
+0010.170 (0) Table wpu0_wfCrawlers: finishing file(s) (2, 0.6 KB)
+0010.172 (0) Table wpu0_wfFileChanges: Total expected rows (approximate): 0
+0010.173 (0) Table wpu0_wfFileChanges: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=464) in 0.00 seconds
+0010.175 (0) Table wpu0_wfFileChanges: finishing file(s) (2, 0.3 KB)
+0010.176 (0) Table wpu0_wfFileMods: Total expected rows (approximate): 12794
+0010.290 (0) Table wpu0_wfFileMods: binary mysqldump finished (writes: 37, bytes 2489196, return code 0) in 0.11 seconds
+0010.293 (0) Table wpu0_wfFileMods: finishing file(s) (1, 1107.9 KB)
+0010.295 (0) Table wpu0_wfHits: Total expected rows (via COUNT): 154
+0010.295 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0010.299 (0) Table wpu0_wfHits: Rows added in this batch (next record: 200127): 154 (uncompressed bytes in this segment=72432) in 0.01 seconds
+0010.302 (0) Table wpu0_wfHits: finishing file(s) (2, 6.3 KB)
+0010.304 (0) Table wpu0_wfHoover: Total expected rows (via COUNT): 0
+0010.305 (0) Table wpu0_wfHoover: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=488) in 0.00 seconds
+0010.307 (0) Table wpu0_wfHoover: finishing file(s) (2, 0.3 KB)
+0010.309 (0) Table wpu0_wfIssues: Total expected rows (via COUNT): 14
+0010.310 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0010.311 (0) Table wpu0_wfIssues: Rows added in this batch (next record: 12128): 14 (uncompressed bytes in this segment=19290) in 0.00 seconds
+0010.313 (0) Table wpu0_wfIssues: finishing file(s) (2, 4.6 KB)
+0010.315 (0) Table wpu0_wfKnownFileList: Total expected rows (approximate): 13012
+0010.356 (0) Table wpu0_wfKnownFileList: binary mysqldump finished (writes: 28, bytes 1023760, return code 0) in 0.04 seconds
+0010.359 (0) Table wpu0_wfKnownFileList: finishing file(s) (1, 124.5 KB)
+0010.361 (0) Table wpu0_wfLiveTrafficHuman: Total expected rows (approximate): 0
+0010.363 (0) Table wpu0_wfLiveTrafficHuman: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=660) in 0.00 seconds
+0010.364 (0) Table wpu0_wfLiveTrafficHuman: finishing file(s) (2, 0.3 KB)
+0010.367 (0) Table wpu0_wfLocs: Total expected rows (approximate): 0
+0010.367 (0) Table wpu0_wfLocs: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=694) in 0.00 seconds
+0010.369 (0) Table wpu0_wfLocs: finishing file(s) (2, 0.4 KB)
+0010.373 (0) Table wpu0_wfLogins: Total expected rows (via COUNT): 97
+0010.374 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0010.376 (0) Table wpu0_wfLogins: Rows added in this batch (next record: 97): 97 (uncompressed bytes in this segment=21190) in 0.01 seconds
+0010.379 (0) Table wpu0_wfLogins: finishing file(s) (2, 3.1 KB)
+0010.381 (0) Table wpu0_wfNotifications: Total expected rows (approximate): 95
+0010.383 (0) Table wpu0_wfNotifications: Rows added in this batch (next record: 1000): 97 (uncompressed bytes in this segment=18367) in 0.00 seconds
+0010.385 (0) Table wpu0_wfNotifications: finishing file(s) (2, 2.3 KB)
+0010.390 (0) Table wpu0_wfPendingIssues: Total expected rows (via COUNT): 0
+0010.391 (0) Table wpu0_wfPendingIssues: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=858) in 0.00 seconds
+0010.392 (0) Table wpu0_wfPendingIssues: finishing file(s) (2, 0.4 KB)
+0010.395 (0) Table wpu0_wfReverseCache: Total expected rows (approximate): 4
+0010.395 (0) Table wpu0_wfReverseCache: Rows added in this batch (next record: 1000): 4 (uncompressed bytes in this segment=901) in 0.00 seconds
+0010.397 (0) Table wpu0_wfReverseCache: finishing file(s) (2, 0.4 KB)
+0010.401 (0) Table wpu0_wfSNIPCache: Total expected rows (via COUNT): 0
+0010.402 (0) Table wpu0_wfSNIPCache: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=713) in 0.00 seconds
+0010.404 (0) Table wpu0_wfSNIPCache: finishing file(s) (2, 0.4 KB)
+0010.406 (0) Table wpu0_wfStatus: Total expected rows (via COUNT): 941
+0010.414 (0) Table wpu0_wfStatus: Rows added in this batch (next record: 127808): 941 (uncompressed bytes in this segment=93554) in 0.01 seconds
+0010.417 (0) Table wpu0_wfStatus: finishing file(s) (2, 14.7 KB)
+0010.419 (0) Table wpu0_wfTrafficRates: Total expected rows (approximate): 0
+0010.420 (0) Table wpu0_wfTrafficRates: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=578) in 0.00 seconds
+0010.422 (0) Table wpu0_wfTrafficRates: finishing file(s) (2, 0.3 KB)
+0010.424 (0) Table wpu0_wfls_2fa_secrets: Total expected rows (via COUNT): 0
+0010.425 (0) Table wpu0_wfls_2fa_secrets: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=693) in 0.00 seconds
+0010.427 (0) Table wpu0_wfls_2fa_secrets: finishing file(s) (2, 0.4 KB)
+0010.429 (0) Table wpu0_wfls_settings: Total expected rows (approximate): 23
+0010.430 (0) Table wpu0_wfls_settings: Rows added in this batch (next record: 1000): 23 (uncompressed bytes in this segment=1771) in 0.00 seconds
+0010.432 (0) Table wpu0_wfls_settings: finishing file(s) (2, 0.8 KB)
+0010.436 (0) Table wpu0_yoast_indexable: Total expected rows (via COUNT): 68
+0010.436 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0010.441 (0) Table wpu0_yoast_indexable: Rows added in this batch (next record: 122): 68 (uncompressed bytes in this segment=69791) in 0.01 seconds
+0010.444 (0) Table wpu0_yoast_indexable: finishing file(s) (2, 9.6 KB)
+0010.446 (0) Table wpu0_yoast_indexable_hierarchy: Total expected rows (approximate): 59
+0010.448 (0) Table wpu0_yoast_indexable_hierarchy: Rows added in this batch (next record: 1000): 63 (uncompressed bytes in this segment=1862) in 0.00 seconds
+0010.450 (0) Table wpu0_yoast_indexable_hierarchy: finishing file(s) (2, 0.6 KB)
+0010.452 (0) Table wpu0_yoast_migrations: Total expected rows (via COUNT): 23
+0010.453 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0010.455 (0) Table wpu0_yoast_migrations: Rows added in this batch (next record: 23): 23 (uncompressed bytes in this segment=1262) in 0.00 seconds
+0010.457 (0) Table wpu0_yoast_migrations: finishing file(s) (2, 0.6 KB)
+0010.461 (0) Table wpu0_yoast_primary_term: Total expected rows (via COUNT): 0
+0010.463 (0) Table wpu0_yoast_primary_term: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=870) in 0.00 seconds
+0010.465 (0) Table wpu0_yoast_primary_term: finishing file(s) (2, 0.4 KB)
+0010.469 (0) Table wpu0_yoast_seo_links: Total expected rows (via COUNT): 118
+0010.469 (0) Table is relatively small; fetch_rows will thus be: 200 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0010.471 (0) Table wpu0_yoast_seo_links: Rows added in this batch (next record: 6043): 118 (uncompressed bytes in this segment=16599) in 0.00 seconds
+0010.473 (0) Table wpu0_yoast_seo_links: finishing file(s) (2, 3.2 KB)
+0010.476 (0) Table wpu0_yoast_seo_meta: Total expected rows (via COUNT): 175
+0010.476 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0010.478 (0) Table wpu0_yoast_seo_meta: Rows added in this batch (next record: 322): 175 (uncompressed bytes in this segment=2988) in 0.00 seconds
+0010.480 (0) Table wpu0_yoast_seo_meta: finishing file(s) (2, 0.8 KB)
+0010.481 (0) backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-db-table-wpu0_options.table.tmpr2667650.gz (1/55/fopen): adding to final database dump
+0010.484 (0) backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-db-table-wpu0_options.table.gz (2/55/fopen): adding to final database dump
+0010.484 (0) backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-db-table-wpu0_users.table.tmpr3.gz (3/55/fopen): adding to final database dump
+0010.485 (0) backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-db-table-wpu0_users.table.gz (4/55/fopen): adding to final database dump
+0010.485 (0) backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-db-table-wpu0_usermeta.table.tmpr83.gz (5/55/fopen): adding to final database dump
+0010.486 (0) backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-db-table-wpu0_usermeta.table.gz (6/55/fopen): adding to final database dump
+0010.486 (0) backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-db-table-wpu0_commentmeta.table.tmpr0.gz (7/55/fopen): adding to final database dump
+0010.487 (0) backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-db-table-wpu0_commentmeta.table.gz (8/55/fopen): adding to final database dump
+0010.487 (0) backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-db-table-wpu0_comments.table.tmpr0.gz (9/55/fopen): adding to final database dump
+0010.487 (0) backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-db-table-wpu0_comments.table.gz (10/55/fopen): adding to final database dump
+0010.488 (0) backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-db-table-wpu0_itsec_bans.table.tmpr2.gz (11/55/fopen): adding to final database dump
+0010.488 (0) backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-db-table-wpu0_itsec_bans.table.gz (12/55/fopen): adding to final database dump
+0010.488 (0) backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-db-table-wpu0_itsec_dashboard_events.table.tmpr11.gz (13/55/fopen): adding to final database dump
+0010.489 (0) backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-db-table-wpu0_itsec_dashboard_events.table.gz (14/55/fopen): adding to final database dump
+0010.489 (0) backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-db-table-wpu0_itsec_distributed_storage.table.tmpr690.gz (15/55/fopen): adding to final database dump
+0010.500 (0) backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-db-table-wpu0_itsec_distributed_storage.table.gz (16/55/fopen): adding to final database dump
+0010.501 (0) backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-db-table-wpu0_itsec_fingerprints.table.tmpr0.gz (17/55/fopen): adding to final database dump
+0010.501 (0) backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-db-table-wpu0_itsec_fingerprints.table.gz (18/55/fopen): adding to final database dump
+0010.501 (0) backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-db-table-wpu0_itsec_geolocation_cache.table.tmpr0.gz (19/55/fopen): adding to final database dump
+0010.502 (0) backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-db-table-wpu0_itsec_geolocation_cache.table.gz (20/55/fopen): adding to final database dump
+0010.503 (0) backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-db-table-wpu0_itsec_lockouts.table.tmpr0.gz (21/55/fopen): adding to final database dump
+0010.503 (0) backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-db-table-wpu0_itsec_lockouts.table.gz (22/55/fopen): adding to final database dump
+0010.504 (0) backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-db-table-wpu0_itsec_logs.table.tmpr28600.gz (23/55/fopen): adding to final database dump
+0010.504 (0) backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-db-table-wpu0_itsec_logs.table.gz (24/55/fopen): adding to final database dump
+0010.505 (0) backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-db-table-wpu0_itsec_mutexes.table.tmpr0.gz (25/55/fopen): adding to final database dump
+0010.505 (0) backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-db-table-wpu0_itsec_mutexes.table.gz (26/55/fopen): adding to final database dump
+0010.506 (0) backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-db-table-wpu0_itsec_opaque_tokens.table.tmpr1.gz (27/55/fopen): adding to final database dump
+0010.506 (0) backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-db-table-wpu0_itsec_opaque_tokens.table.gz (28/55/fopen): adding to final database dump
+0010.507 (0) backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-db-table-wpu0_itsec_temp.table.tmpr0.gz (29/55/fopen): adding to final database dump
+0010.507 (0) backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-db-table-wpu0_itsec_temp.table.gz (30/55/fopen): adding to final database dump
+0010.508 (0) backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-db-table-wpu0_itsec_user_groups.table.tmpr1001.gz (31/55/fopen): adding to final database dump
+0010.509 (0) backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-db-table-wpu0_itsec_user_groups.table.gz (32/55/fopen): adding to final database dump
+0010.509 (0) backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-db-table-wpu0_links.table.tmpr0.gz (33/55/fopen): adding to final database dump
+0010.510 (0) backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-db-table-wpu0_links.table.gz (34/55/fopen): adding to final database dump
+0010.510 (0) backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-db-table-wpu0_postmeta.table.tmpr592.gz (35/55/fopen): adding to final database dump
+0010.511 (0) backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-db-table-wpu0_postmeta.table.gz (36/55/fopen): adding to final database dump
+0010.511 (0) backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-db-table-wpu0_posts.table.tmpr367.gz (37/55/fopen): adding to final database dump
+0010.513 (0) backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-db-table-wpu0_posts.table.gz (38/55/fopen): adding to final database dump
+0010.514 (0) backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-db-table-wpu0_term_relationships.table.tmpr100001.gz (39/55/fopen): adding to final database dump
+0010.514 (0) backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-db-table-wpu0_term_relationships.table.gz (40/55/fopen): adding to final database dump
+0010.515 (0) backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-db-table-wpu0_term_taxonomy.table.tmpr7.gz (41/55/fopen): adding to final database dump
+0010.515 (0) backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-db-table-wpu0_term_taxonomy.table.gz (42/55/fopen): adding to final database dump
+0010.516 (0) backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-db-table-wpu0_termmeta.table.tmpr0.gz (43/55/fopen): adding to final database dump
+0010.516 (0) backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-db-table-wpu0_termmeta.table.gz (44/55/fopen): adding to final database dump
+0010.517 (0) backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-db-table-wpu0_terms.table.tmpr7.gz (45/55/fopen): adding to final database dump
+0010.517 (0) backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-db-table-wpu0_terms.table.gz (46/55/fopen): adding to final database dump
+0010.518 (0) backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-db-table-wpu0_ewwwio_images.table.tmpr35.gz (47/55/fopen): adding to final database dump
+0010.518 (0) backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-db-table-wpu0_ewwwio_images.table.gz (48/55/fopen): adding to final database dump
+0010.519 (0) backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-db-table-wpu0_redirection_404.table.tmpr204939.gz (49/55/fopen): adding to final database dump
+0010.519 (0) backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-db-table-wpu0_redirection_404.table.gz (50/55/fopen): adding to final database dump
+0010.520 (0) backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-db-table-wpu0_redirection_groups.table.tmpr3.gz (51/55/fopen): adding to final database dump
+0010.520 (0) backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-db-table-wpu0_redirection_groups.table.gz (52/55/fopen): adding to final database dump
+0010.521 (0) backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-db-table-wpu0_redirection_items.table.tmpr2.gz (53/55/fopen): adding to final database dump
+0010.521 (0) backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-db-table-wpu0_redirection_items.table.gz (54/55/fopen): adding to final database dump
+0010.522 (0) backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-db-table-wpu0_redirection_logs.table.tmpr0.gz (55/55/fopen): adding to final database dump
+0010.522 (0) backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-db-table-wpu0_redirection_logs.table.gz (56/55/fopen): adding to final database dump
+0010.523 (0) backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-db-table-wpu0_wfBlockedIPLog.table.tmpr1001.gz (57/55/fopen): adding to final database dump
+0010.523 (0) backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-db-table-wpu0_wfBlockedIPLog.table.gz (58/55/fopen): adding to final database dump
+0010.524 (0) backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-db-table-wpu0_wfBlocks7.table.tmpr0.gz (59/55/fopen): adding to final database dump
+0010.524 (0) backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-db-table-wpu0_wfBlocks7.table.gz (60/55/fopen): adding to final database dump
+0010.525 (0) backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-db-table-wpu0_wfConfig.table.tmpr1001.gz (61/55/fopen): adding to final database dump
+0010.533 (0) backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-db-table-wpu0_wfConfig.table.gz (62/55/fopen): adding to final database dump
+0010.534 (0) backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-db-table-wpu0_wfCrawlers.table.tmpr1001.gz (63/55/fopen): adding to final database dump
+0010.535 (0) backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-db-table-wpu0_wfCrawlers.table.gz (64/55/fopen): adding to final database dump
+0010.535 (0) backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-db-table-wpu0_wfFileChanges.table.tmpr1.gz (65/55/fopen): adding to final database dump
+0010.536 (0) backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-db-table-wpu0_wfFileChanges.table.gz (66/55/fopen): adding to final database dump
+0010.536 (0) backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-db-table-wpu0_wfFileMods.table.gz (67/55/fopen): adding to final database dump
+0010.557 (0) backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-db-table-wpu0_wfHits.table.tmpr200128.gz (68/55/fopen): adding to final database dump
+0010.558 (0) backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-db-table-wpu0_wfHits.table.gz (69/55/fopen): adding to final database dump
+0010.558 (0) backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-db-table-wpu0_wfHoover.table.tmpr0.gz (70/55/fopen): adding to final database dump
+0010.559 (0) backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-db-table-wpu0_wfHoover.table.gz (71/55/fopen): adding to final database dump
+0010.559 (0) backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-db-table-wpu0_wfIssues.table.tmpr12129.gz (72/55/fopen): adding to final database dump
+0010.560 (0) backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-db-table-wpu0_wfIssues.table.gz (73/55/fopen): adding to final database dump
+0010.561 (0) backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-db-table-wpu0_wfKnownFileList.table.gz (74/55/fopen): adding to final database dump
+0010.563 (0) backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-db-table-wpu0_wfLiveTrafficHuman.table.tmpr1.gz (75/55/fopen): adding to final database dump
+0010.564 (0) backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-db-table-wpu0_wfLiveTrafficHuman.table.gz (76/55/fopen): adding to final database dump
+0010.565 (0) backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-db-table-wpu0_wfLocs.table.tmpr1.gz (77/55/fopen): adding to final database dump
+0010.565 (0) backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-db-table-wpu0_wfLocs.table.gz (78/55/fopen): adding to final database dump
+0010.565 (0) backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-db-table-wpu0_wfLogins.table.tmpr98.gz (79/55/fopen): adding to final database dump
+0010.566 (0) backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-db-table-wpu0_wfLogins.table.gz (80/55/fopen): adding to final database dump
+0010.566 (0) backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-db-table-wpu0_wfNotifications.table.tmpr1001.gz (81/55/fopen): adding to final database dump
+0010.567 (0) backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-db-table-wpu0_wfNotifications.table.gz (82/55/fopen): adding to final database dump
+0010.567 (0) backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-db-table-wpu0_wfPendingIssues.table.tmpr0.gz (83/55/fopen): adding to final database dump
+0010.568 (0) backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-db-table-wpu0_wfPendingIssues.table.gz (84/55/fopen): adding to final database dump
+0010.569 (0) backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-db-table-wpu0_wfReverseCache.table.tmpr1001.gz (85/55/fopen): adding to final database dump
+0010.569 (0) backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-db-table-wpu0_wfReverseCache.table.gz (86/55/fopen): adding to final database dump
+0010.569 (0) backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-db-table-wpu0_wfSNIPCache.table.tmpr0.gz (87/55/fopen): adding to final database dump
+0010.570 (0) backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-db-table-wpu0_wfSNIPCache.table.gz (88/55/fopen): adding to final database dump
+0010.570 (0) backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-db-table-wpu0_wfStatus.table.tmpr127809.gz (89/55/fopen): adding to final database dump
+0010.571 (0) backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-db-table-wpu0_wfStatus.table.gz (90/55/fopen): adding to final database dump
+0010.571 (0) backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-db-table-wpu0_wfTrafficRates.table.tmpr1.gz (91/55/fopen): adding to final database dump
+0010.572 (0) backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-db-table-wpu0_wfTrafficRates.table.gz (92/55/fopen): adding to final database dump
+0010.572 (0) backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-db-table-wpu0_wfls_2fa_secrets.table.tmpr0.gz (93/55/fopen): adding to final database dump
+0010.573 (0) backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-db-table-wpu0_wfls_2fa_secrets.table.gz (94/55/fopen): adding to final database dump
+0010.573 (0) backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-db-table-wpu0_wfls_settings.table.tmpr1001.gz (95/55/fopen): adding to final database dump
+0010.574 (0) backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-db-table-wpu0_wfls_settings.table.gz (96/55/fopen): adding to final database dump
+0010.574 (0) backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-db-table-wpu0_yoast_indexable.table.tmpr123.gz (97/55/fopen): adding to final database dump
+0010.575 (0) backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-db-table-wpu0_yoast_indexable.table.gz (98/55/fopen): adding to final database dump
+0010.575 (0) backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-db-table-wpu0_yoast_indexable_hierarchy.table.tmpr1001.gz (99/55/fopen): adding to final database dump
+0010.577 (0) backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-db-table-wpu0_yoast_indexable_hierarchy.table.gz (100/55/fopen): adding to final database dump
+0010.577 (0) backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-db-table-wpu0_yoast_migrations.table.tmpr24.gz (101/55/fopen): adding to final database dump
+0010.578 (0) backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-db-table-wpu0_yoast_migrations.table.gz (102/55/fopen): adding to final database dump
+0010.578 (0) backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-db-table-wpu0_yoast_primary_term.table.tmpr0.gz (103/55/fopen): adding to final database dump
+0010.579 (0) backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-db-table-wpu0_yoast_primary_term.table.gz (104/55/fopen): adding to final database dump
+0010.579 (0) backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-db-table-wpu0_yoast_seo_links.table.tmpr6044.gz (105/55/fopen): adding to final database dump
+0010.579 (0) backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-db-table-wpu0_yoast_seo_links.table.gz (106/55/fopen): adding to final database dump
+0010.580 (0) backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-db-table-wpu0_yoast_seo_meta.table.tmpr323.gz (107/55/fopen): adding to final database dump
+0010.580 (0) backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-db-table-wpu0_yoast_seo_meta.table.gz (108/55/fopen): adding to final database dump
+0010.584 (0) backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-db.gz: finished writing out complete database file (2550.7 KB)
+0010.613 (0) Total database tables backed up: 55 (backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-db.gz, size: 2611984, sha1: 30a4e7092b026328d6bd2803840f23e1522f2d04, sha256: 837d6cf65e50fd5d321f75ef358cc245e88e4ec4b72fe16c2b32ee34a8f7962e)
+0010.618 (0) backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0010.619 (0) backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0010.619 (0) backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0010.620 (0) backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-others.zip: others: This file has not yet been successfully uploaded: will queue
+0010.620 (0) backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-db.gz: db: This file has not yet been successfully uploaded: will queue
+0010.621 (0) Saving backup history. Total backup size: 145.6 MB
+0010.622 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0010.624 (0) Cloud backup selection (1/1): s3 with instance (1/1) (last)
+0010.625 (0) Beginning dispatch of backup to remote (s3) (instance identifier s-fdfa093d83dc34240eac4c3485c91ef3)
+0011.032 (0) Amazon S3: Set region: us-east-1
+0011.033 (0) Amazon S3: upload (us-east-1): backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-plugins.zip (chunks: 8) -> s3://brightdigit-backups01/leogdion.name/backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-plugins.zip
+0011.097 (0) Amazon S3: chunked upload: got multipart ID: QkT8PMY91fDaVB.2sqBOeo5HGlNycku..Ghnl_j6jCn5eLG4etSATxVh4xbIheGXvY715jzYdRg7sbLSjBytImZuGQ90WGKryGDOUFB.VbnqdXYBTVwkObqLAB9IZS93
+0011.593 (0) S3 chunked upload: 12.5 % uploaded (1, "81580bf0384be2125c908d6e5cc9c618")
+0011.818 (0) S3 chunked upload: 25 % uploaded (2, "1ba960970fce4ac84062d786e92fd009")
+0012.075 (0) S3 chunked upload: 37.5 % uploaded (3, "88bcfdfd08c63dcf05aa13475251802a")
+0012.320 (0) S3 chunked upload: 50 % uploaded (4, "6f5d09bd226d90bd19a20f2190108b9d")
+0012.550 (0) S3 chunked upload: 62.5 % uploaded (5, "1b068eeb49f722be7e11ad097e8be4d9")
+0012.784 (0) S3 chunked upload: 75 % uploaded (6, "6ef28fe3e872818ed82a69dd6c12aa9d")
+0013.035 (0) S3 chunked upload: 87.5 % uploaded (7, "4e3f98f04705519391b47fe0515f167f")
+0013.250 (0) S3 chunked upload: 100 % uploaded (8, "818bb9c8228490757c5468846d2e283a")
+0013.251 (0) Amazon S3: upload: all chunks uploaded; will now instruct S3 to re-assemble
+0013.370 (0) Amazon S3: upload (plugins0): re-assembly succeeded
+0013.371 (0) Recording as successfully uploaded: backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-plugins.zip
+0013.385 (0) Deleting local file: backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-plugins.zip: OK
+0013.386 (0) Deleting zip manifest (backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-plugins.zip.list.tmp)
+0013.387 (0) Amazon S3: upload (us-east-1): backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-themes.zip (chunks: 2) -> s3://brightdigit-backups01/leogdion.name/backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-themes.zip
+0013.438 (0) Amazon S3: chunked upload: got multipart ID: 0ZGgbsosjhidAsux4PoWJJSVN_65Ws4NecFQiuO1LLkgVpKdYUtTRIZ0vrbr5Cu.x0VWGqw9jNM0bIDfwIe9ANDu8BNLNnazmvUqZ_WMCcF5Qqybr8yP8pgESuLzQJnM
+0013.675 (0) S3 chunked upload: 50 % uploaded (1, "4a503461defb0bfbf25e0177db91e1de")
+0013.864 (0) S3 chunked upload: 100 % uploaded (2, "cf52c8b75f647f20f29583692276bfad")
+0013.865 (0) Amazon S3: upload: all chunks uploaded; will now instruct S3 to re-assemble
+0013.981 (0) Amazon S3: upload (themes0): re-assembly succeeded
+0013.982 (0) Recording as successfully uploaded: backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-themes.zip
+0013.985 (0) Deleting local file: backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-themes.zip: OK
+0013.986 (0) Deleting zip manifest (backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-themes.zip.list.tmp)
+0013.986 (0) Amazon S3: upload (us-east-1): backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-uploads.zip (chunks: 19) -> s3://brightdigit-backups01/leogdion.name/backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-uploads.zip
+0014.033 (0) Amazon S3: chunked upload: got multipart ID: MviRXR98wwqiNFQvZzKRBRtzHzfZdxgKLVLl0Q3bmmAILHP.0tgihfaDqpJOz1nXy3onrlr4vKT26GNWlN6yIZqFdXzYWOPA54GQX9WwNpihPEAiLl18prCKinCZ8dOE
+0014.286 (0) S3 chunked upload: 5.3 % uploaded (1, "284495620d19f57723cad7b054461df6")
+0014.557 (0) S3 chunked upload: 10.5 % uploaded (2, "19f9d28efef0fe6227739d49d3f68a19")
+0014.790 (0) S3 chunked upload: 15.8 % uploaded (3, "e9bbfe1687578705b44d5198e355d0ed")
+0015.052 (0) S3 chunked upload: 21.1 % uploaded (4, "972d45ce9b22a3dbd6d45fa809996891")
+0015.384 (0) S3 chunked upload: 26.3 % uploaded (5, "600ab80b58a8a4bcb6a1a549892f08fb")
+0015.631 (0) S3 chunked upload: 31.6 % uploaded (6, "3e73c51b7a59b00102a5ad05e9fb1c79")
+0015.861 (0) S3 chunked upload: 36.8 % uploaded (7, "03b60b03cbd6249021118f57297e4783")
+0016.093 (0) S3 chunked upload: 42.1 % uploaded (8, "a0ae17313ba524cf53d3cae337480607")
+0016.325 (0) S3 chunked upload: 47.4 % uploaded (9, "17eedf10774679ed033c4caf024bf63d")
+0016.566 (0) S3 chunked upload: 52.6 % uploaded (10, "ba8e5b842ddd369628244b041484ce39")
+0016.795 (0) S3 chunked upload: 57.9 % uploaded (11, "a9e6333d05f5ba687e4b55da042b79c7")
+0017.053 (0) S3 chunked upload: 63.2 % uploaded (12, "62fd3271eac18d8de6ede0e8515640aa")
+0017.318 (0) S3 chunked upload: 68.4 % uploaded (13, "9c67b574e989e2f86f90775ab0f385da")
+0017.550 (0) S3 chunked upload: 73.7 % uploaded (14, "d9864baaa31aa98dff3ae1de7f4dc2e2")
+0017.799 (0) S3 chunked upload: 78.9 % uploaded (15, "6dffbcd7740d8a6a454f693031262dfb")
+0018.069 (0) S3 chunked upload: 84.2 % uploaded (16, "a4ed7bbb6aa43d303207d7b950887787")
+0018.272 (0) S3 chunked upload: 89.5 % uploaded (17, "65db5f81a4fb808cab18d5d5bab839c8")
+0018.465 (0) S3 chunked upload: 94.7 % uploaded (18, "271fa490501994e4441c4214d03366a8")
+0018.709 (0) S3 chunked upload: 100 % uploaded (19, "a730b1a61d2587c377ba7a37c4b46c55")
+0018.711 (0) Amazon S3: upload: all chunks uploaded; will now instruct S3 to re-assemble
+0018.852 (0) Amazon S3: upload (uploads0): re-assembly succeeded
+0018.853 (0) Recording as successfully uploaded: backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-uploads.zip
+0018.884 (0) Deleting local file: backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-uploads.zip: OK
+0018.885 (0) Deleting zip manifest (backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-uploads.zip.list.tmp)
+0018.886 (0) Amazon S3: upload (us-east-1): backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-others.zip (chunks: 1) -> s3://brightdigit-backups01/leogdion.name/backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-others.zip
+0019.066 (0) Amazon S3: regular upload: success
+0019.067 (0) Recording as successfully uploaded: backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-others.zip
+0019.068 (0) Deleting local file: backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-others.zip: OK
+0019.069 (0) Deleting zip manifest (backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-others.zip.list.tmp)
+0019.069 (0) Amazon S3: upload (us-east-1): backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-db.gz (chunks: 1) -> s3://brightdigit-backups01/leogdion.name/backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-db.gz
+0019.254 (0) Amazon S3: regular upload: success
+0019.255 (0) Recording as successfully uploaded: backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-db.gz
+0019.256 (0) Deleting local file: backup_2022-04-28-1158_Leo_G_Dion_ecf7cd66c26f-db.gz: OK
+0019.258 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=1, retain_db=1
+0019.259 (0) Number of backup sets in history: 3; groups (db): 1
+0019.260 (0) Examining (for databases) backup set with group_id=0, nonce=ecf7cd66c26f, datestamp=1651161510 (Apr 28 2022 15:58:30)
+0019.260 (0) This backup set is the backup set just made, so will not be deleted.
+0019.260 (0) Examining (for databases) backup set with group_id=0, nonce=4166b73d2444, datestamp=1650556525 (Apr 21 2022 15:55:25)
+0019.260 (0) 1650556525: db: this set includes a database (backup_2022-04-21-1155_Leo_G_Dion_4166b73d2444-db.gz); db count is now 1
+0019.260 (0) 1650556525: db: over retain limit (1); will delete this database
+0019.260 (0) Delete file: backup_2022-04-21-1155_Leo_G_Dion_4166b73d2444-db.gz, service=s3
+0019.260 (0) Amazon S3: Delete remote: bucket=brightdigit-backups01, URI=leogdion.name/backup_2022-04-21-1155_Leo_G_Dion_4166b73d2444-db.gz
+0019.310 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0019.310 (0) Examining (for databases) backup set with group_id=0, nonce=8719d12f61b6, datestamp=1535039436 (Aug 23 2018 15:50:36)
+0019.311 (0) This backup set (1535039436) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+0019.311 (0) Number of backup sets in history: 3; groups (files): 1
+0019.311 (0) Examining (for files) backup set with nonce=ecf7cd66c26f, datestamp=1651161510 (Apr 28 2022 15:58:30)
+0019.311 (0) This backup set is the backup set just made, so will not be deleted.
+0019.311 (0) This backup set is the backup set just made, so will not be deleted.
+0019.311 (0) This backup set is the backup set just made, so will not be deleted.
+0019.311 (0) This backup set is the backup set just made, so will not be deleted.
+0019.311 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0019.312 (0) Examining (for files) backup set with nonce=4166b73d2444, datestamp=1650556525 (Apr 21 2022 15:55:25)
+0019.312 (0) plugins: over retain limit (1); will delete this file entity
+0019.312 (0) themes: over retain limit (1); will delete this file entity
+0019.312 (0) uploads: over retain limit (1); will delete this file entity
+0019.312 (0) others: over retain limit (1); will delete this file entity
+0019.312 (0) Delete file: backup_2022-04-21-1155_Leo_G_Dion_4166b73d2444-plugins.zip, service=s3
+0019.312 (0) Delete file: backup_2022-04-21-1155_Leo_G_Dion_4166b73d2444-themes.zip, service=s3
+0019.312 (0) Delete file: backup_2022-04-21-1155_Leo_G_Dion_4166b73d2444-uploads.zip, service=s3
+0019.313 (0) Delete file: backup_2022-04-21-1155_Leo_G_Dion_4166b73d2444-others.zip, service=s3
+0019.313 (0) Amazon S3: Delete remote: bucket=brightdigit-backups01, URI=leogdion.name/backup_2022-04-21-1155_Leo_G_Dion_4166b73d2444-plugins.zip
+0019.386 (0) Amazon S3: Delete remote: bucket=brightdigit-backups01, URI=leogdion.name/backup_2022-04-21-1155_Leo_G_Dion_4166b73d2444-themes.zip
+0019.443 (0) Amazon S3: Delete remote: bucket=brightdigit-backups01, URI=leogdion.name/backup_2022-04-21-1155_Leo_G_Dion_4166b73d2444-uploads.zip
+0019.527 (0) Amazon S3: Delete remote: bucket=brightdigit-backups01, URI=leogdion.name/backup_2022-04-21-1155_Leo_G_Dion_4166b73d2444-others.zip
+0019.581 (0) This backup set is now empty; will remove from history
+0019.582 (0) Deleting log file (log.4166b73d2444.txt)
+0019.583 (0) Examining (for files) backup set with nonce=8719d12f61b6, datestamp=1535039436 (Aug 23 2018 15:50:36)
+0019.583 (0) This backup set (1535039436) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+0019.583 (0) This backup set (1535039436) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+0019.583 (0) This backup set (1535039436) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+0019.583 (0) This backup set (1535039436) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+0019.583 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0019.584 (0) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0019.586 (0) Resume backup (ecf7cd66c26f, 0): finish run
+0019.587 (0) Decremented the semaphore (fd) by 1
+0019.588 (0) Semaphore (fd) unlocked
+0019.588 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0019.592 (0) No email will/can be sent - the user has not configured an email address.
+0019.593 (0) The backup apparently succeeded and is now complete
