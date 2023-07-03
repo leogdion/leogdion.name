@@ -1,0 +1,15 @@
+[24-Sep-2019 12:39:56 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'update' not found or invalid function name in /home/brightd2/sites/leogdion.name/www/wp-includes/class-wp-hook.php on line 286
+[10-Oct-2019 11:36:09 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'update' not found or invalid function name in /home/brightd2/sites/leogdion.name/www/wp-includes/class-wp-hook.php on line 286
+[01-Nov-2019 05:52:25 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function apply_filters() in /home/brightd2/sites/leogdion.name/www/wp-admin/menu-header.php:38
+Stack trace:
+#0 {main}
+  thrown in /home/brightd2/sites/leogdion.name/www/wp-admin/menu-header.php on line 38
+[01-Nov-2019 05:52:28 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function apply_filters() in /home/brightd2/sites/leogdion.name/www/wp-admin/menu-header.php:38
+Stack trace:
+#0 {main}
+  thrown in /home/brightd2/sites/leogdion.name/www/wp-admin/menu-header.php on line 38
+[24-Aug-2020 14:40:28 UTC] WordPress database error Table 'brightd2_wp511.wpu0_ewwwio_queue' doesn't exist for query DELETE from wpu0_ewwwio_queue WHERE gallery = 'media' made by do_action('wp_ajax_delete-plugin'), WP_Hook->do_action, WP_Hook->apply_filters, wp_ajax_delete_plugin, delete_plugins, uninstall_plugin, include_once('/plugins/ewww-image-optimizer/uninstall.php')
+[24-Aug-2020 14:40:28 UTC] WordPress database error Table 'brightd2_wp511.wpu0_ewwwio_queue' doesn't exist for query DELETE from wpu0_ewwwio_queue WHERE gallery = 'flag' made by do_action('wp_ajax_delete-plugin'), WP_Hook->do_action, WP_Hook->apply_filters, wp_ajax_delete_plugin, delete_plugins, uninstall_plugin, include_once('/plugins/ewww-image-optimizer/uninstall.php')
+[24-Aug-2020 14:40:28 UTC] WordPress database error Table 'brightd2_wp511.wpu0_ewwwio_queue' doesn't exist for query DELETE from wpu0_ewwwio_queue WHERE gallery = 'nextgen' made by do_action('wp_ajax_delete-plugin'), WP_Hook->do_action, WP_Hook->apply_filters, wp_ajax_delete_plugin, delete_plugins, uninstall_plugin, include_once('/plugins/ewww-image-optimizer/uninstall.php')
+[24-Aug-2020 14:40:28 UTC] WordPress database error Table 'brightd2_wp511.wpu0_ewwwio_queue' doesn't exist for query DELETE from wpu0_ewwwio_queue WHERE gallery = 'nextcell' made by do_action('wp_ajax_delete-plugin'), WP_Hook->do_action, WP_Hook->apply_filters, wp_ajax_delete_plugin, delete_plugins, uninstall_plugin, include_once('/plugins/ewww-image-optimizer/uninstall.php')
+[21-Apr-2022 07:58:21 UTC] PHP Notice:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /home/customer/www/leogdion.name/public_html/wp-includes/update.php on line 175
