@@ -1,0 +1,43 @@
+version: "3" 
+# Defines which compose version to use
+services:
+  # Services line define which Docker images to run. In this case, it will be MySQL server and WordPress image.
+  db:
+    image: biarms/mysql:5.7
+    volumes:
+       - ./mysql:/var/lib/mysql
+    #  - ./initdb.d:/docker-entrypoint-initdb.d
+    # image: mysql:5.7 indicates the MySQL database container image from Docker Hub used in this installation.
+    restart: always
+    #ports:
+    #  - "3306:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: MyR00tMySQLPa$$5w0rD
+      MYSQL_DATABASE: brightd2_wp511
+      MYSQL_USER: brightd2_wp511
+      MYSQL_PASSWORD: 0]rp3d.73S
+      # Previous four lines define the main variables needed for the MySQL container to work: database, database username, database user password, and the MySQL root password.
+  wordpress:
+    depends_on:
+      - db
+    image: wordpress:5.9.3
+    restart: always
+    links:
+      - db:mysql
+    # Restart line controls the restart mode, meaning if the container stops running for any reason, it will restart the process immediately.
+    ports:
+      - "8000:80"
+      - "8443:443"
+      # The previous line defines the port that the WordPress container will use. After successful installation, the full path will look like this: http://localhost:8000
+    environment:
+      WORDPRESS_DB_HOST: db:3306
+      WORDPRESS_DB_USER: brightd2_wp511
+      WORDPRESS_DB_PASSWORD: 0]rp3d.73S
+      WORDPRESS_DB_NAME: brightd2_wp511
+      WORDPRESS_TABLE_PREFIX: wpu0_
+      WORDPRESS_DEBUG: true
+  # Similar to MySQL image variables, the last four lines define the main variables needed for the WordPress container to work properly with the MySQL container.
+    volumes:
+      ["./html:/var/www/html"]
+volumes:
+  mysql: {}
