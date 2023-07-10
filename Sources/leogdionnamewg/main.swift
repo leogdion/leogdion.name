@@ -1,0 +1,3 @@
+import LeoGDionNameArgs
+
+LeoGDionNameSiteCommand.main()
