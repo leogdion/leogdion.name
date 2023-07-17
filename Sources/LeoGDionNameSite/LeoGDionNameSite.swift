@@ -34,11 +34,3 @@ public extension LeoGDionNameSite {
     try publish(withTheme: .foundation)
   }
 }
-
-
-// TODO: Move this to separate file
-public extension URL {
-  init(staticString: String) {
-    self.init(string: staticString)!
-  }
-}

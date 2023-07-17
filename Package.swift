@@ -23,6 +23,9 @@ let package = Package(
           url: "https://github.com/apple/swift-argument-parser.git",
           from: "1.1.3"
         ),
+        .package(
+          name: "ContributeWordPress", path: "./Packages/ContributeWordPress"
+        ),
     ],
     targets: [
         .executableTarget(
@@ -36,7 +39,8 @@ let package = Package(
                 name: "ArgumentParser",
                 package: "swift-argument-parser"
               ),
-              "LeoGDionNameSite"
+              "LeoGDionNameSite",
+              "ContributeWordPress"
             ]
         ),
         .target(
