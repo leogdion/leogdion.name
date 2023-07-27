@@ -1,7 +1,7 @@
 ---
 title: Are We There Yet?
 date: 2018-12-13 06:00
-featuredImage: /media/wp-images/leogdion/2018/11/6fcd4a78-cb8f-454d-ab60-d07d7009eb0e-180918_storytellers_103a.jpg
+featuredImage: /media/wp-assets/media/wp-assets/default/2018/12/IMG_0036-1-e1544463387190.jpg
 ---
 On September 18, 2018, <a
 href="https://www.lansingstatejournal.com/story/news/local/2018/09/30/what-you-should-know-lansing-storytellers-project-2019/1334235002/"
@@ -17,7 +17,7 @@ challenges.
 
 <figure class="aligncenter">
 <img
-src="https://leogdion.name/wp-content/uploads/2018/12/IMG_0036-1-e1544463387190.jpg"
+src="/media/wp-assets/default/2018/12/IMG_0036-1-e1544463387190.jpg"
 class="wp-image-93" />
 </figure>
 
