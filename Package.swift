@@ -5,9 +5,7 @@ import PackageDescription
 
 let package = Package(
     name: "LeoGDionName",
-    platforms: [
-        .macOS(.v12)
-    ],
+    platforms: [.macOS(.v12)],
     products: [
         .executable(
             name: "leogdionnamewg",
@@ -24,8 +22,9 @@ let package = Package(
           from: "1.1.3"
         ),
         .package(
-          name: "ContributeWordPress", path: "./Packages/ContributeWordPress"
-        ),
+          url: "https://github.com/brightdigit/ContributeWordPress.git",
+          from: "1.0.0-alpha.2"
+        )
     ],
     targets: [
         .executableTarget(

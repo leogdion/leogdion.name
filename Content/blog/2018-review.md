@@ -2,7 +2,7 @@
 title: 2018 - My Year in Review
 date: 2019-01-14 07:49
 description: My main goal this year was to produce more content online and less time on local events and gatherings. Unfortunately, that wasn't the case.
-featuredImage: /media/wp-images/leogdion/2019/01/img_0019-e1547233635848.jpg
+featuredImage: /media/wp-assets/media/wp-assets/default/2019/01/image-e1547230562842-1024x682.jpg
 ---
 -   [2018 Goals](/2019/01/14/2018-review/#goals-2018)
 -   [2018 Stats](/2019/01/14/2018-review/#stats-2018)
@@ -32,7 +32,7 @@ longer related to.
 
 <figure class="wp-block-image">
 <img
-src="https://leogdion.name/wp-content/uploads/2019/01/image-e1547230562842-1024x682.jpg"
+src="/media/wp-assets/default/2019/01/image-e1547230562842-1024x682.jpg"
 class="wp-image-105" alt="A JavaScript Meetup I hosted in 2018 " />
 <figcaption>A JavaScript Meetup I hosted in 2018</figcaption>
 </figure>
@@ -89,7 +89,7 @@ local networking events.
 
 <figure class="wp-block-image">
 <img
-src="https://leogdion.name/wp-content/uploads/2019/01/pexels-photo-886465-1024x682.jpg"
+src="/media/wp-assets/default/2019/01/pexels-photo-886465-1024x682.jpg"
 class="wp-image-106" alt="Handshaking at a Networking Event " />
 </figure>
 
@@ -116,7 +116,7 @@ for businesses and non-profits.
 
 <figure class="wp-block-image">
 <img
-src="https://leogdion.name/wp-content/uploads/2019/01/pexels-photo-326424-e1547232461581-1024x682.jpg"
+src="/media/wp-assets/default/2019/01/pexels-photo-326424-e1547232461581-1024x682.jpg"
 class="wp-image-107" alt="Web Design Tools" />
 <figcaption aria-hidden="true">Web Design Tools</figcaption>
 </figure>
@@ -140,7 +140,7 @@ have a product to sell which is my knowledge (ebook, video, etc…) and it
 offers a glimpse to a potential client of what I can provide.**
 
 <figure class="wp-block-image">
-<img src="https://leogdion.name/wp-content/uploads/2019/01/img_0020.jpg"
+<img src="/media/wp-assets/default/2019/01/img_0020.jpg"
 class="wp-image-108" />
 </figure>
 
@@ -191,7 +191,7 @@ other non-written content such as podcasts, videos, and streaming.**
 
 <figure class="wp-block-image">
 <img
-src="https://leogdion.name/wp-content/uploads/2019/01/matt-botsford-197870-unsplash-e1547232675473-1024x683.jpg"
+src="/media/wp-assets/default/2019/01/matt-botsford-197870-unsplash-e1547232675473-1024x683.jpg"
 class="wp-image-111" alt="Microphone for Podcasting" />
 <figcaption aria-hidden="true">Microphone for Podcasting</figcaption>
 </figure>
@@ -241,7 +241,7 @@ process than on audience building necessarily.
 
 <figure class="wp-block-image">
 <img
-src="https://leogdion.name/wp-content/uploads/2018/11/6fcd4a78-cb8f-454d-ab60-d07d7009eb0e-180918_storytellers_103a.jpg"
+src="/media/wp-assets/default/2018/11/6fcd4a78-cb8f-454d-ab60-d07d7009eb0e-180918_storytellers_103a.jpg"
 class="wp-image-82" alt="Me speaking at LSJ Storytellers" />
 <figcaption aria-hidden="true">Me speaking at LSJ
 Storytellers</figcaption>
@@ -288,7 +288,7 @@ This in my opinion was… good.
 
 <figure class="wp-block-image">
 <img
-src="https://leogdion.name/wp-content/uploads/2019/01/michael-rosner-hyman-30557-unsplash-1024x683.jpg"
+src="/media/wp-assets/default/2019/01/michael-rosner-hyman-30557-unsplash-1024x683.jpg"
 class="wp-image-112" alt="Dealing with Obstacles" />
 </figure>
 
@@ -351,7 +351,7 @@ closer to 40.
 
 <figure class="wp-block-image">
 <img
-src="https://leogdion.name/wp-content/uploads/2019/01/davide-ragusa-24118-unsplash-1024x680.jpg"
+src="/media/wp-assets/default/2019/01/davide-ragusa-24118-unsplash-1024x680.jpg"
 class="wp-image-113" alt="Researching the Audience" />
 </figure>
 
@@ -411,7 +411,7 @@ attending conferences like Microconf and Peers.
 
 <figure class="wp-block-image">
 <img
-src="https://leogdion.name/wp-content/uploads/2019/01/nick-seliverstov-516549-unsplash-e1547232941528-1024x684.jpg"
+src="/media/wp-assets/default/2019/01/nick-seliverstov-516549-unsplash-e1547232941528-1024x684.jpg"
 class="wp-image-114" alt="Keeping An Eye Out For 2019" />
 </figure>
 
@@ -442,7 +442,7 @@ We’ll see where this goes in 2019.
 
 <figure class="wp-block-image">
 <img
-src="https://leogdion.name/wp-content/uploads/2019/01/courtney-hedger-336844-unsplash-1024x684.jpg"
+src="/media/wp-assets/default/2019/01/courtney-hedger-336844-unsplash-1024x684.jpg"
 class="wp-image-115" />
 </figure>
 
@@ -494,7 +494,7 @@ but also a goal very important to me.**
 
 <figure class="wp-block-image">
 <img
-src="https://leogdion.name/wp-content/uploads/2019/01/david-pennington-434304-unsplash-e1547230375178-1024x683.jpg"
+src="/media/wp-assets/default/2019/01/david-pennington-434304-unsplash-e1547230375178-1024x683.jpg"
 class="wp-image-116" />
 </figure>
 
