@@ -1,7 +1,7 @@
 ---
 title: From Goals to Actions 2018
 date: 2018-01-08 15:45
-featuredImage: /media/wp-images/leogdion/2018/01/diagram-for-goals-e1535132251116.png
+featuredImage: /media/wp-assets/media/wp-assets/default/2018/01/diagram-for-goals-e1535132251116.png
 ---
 With a new year here, it’s a good time to talk about goals and how to
 reach them.
@@ -20,7 +20,7 @@ actual committed actions.
 
 <figure class="wp-block-image aligncenter">
 <img
-src="https://leogdion.name/wp-content/uploads/2018/01/diagram-for-goals-e1535132251116.png"
+src="/media/wp-assets/default/2018/01/diagram-for-goals-e1535132251116.png"
 class="wp-image-18" />
 </figure>
 

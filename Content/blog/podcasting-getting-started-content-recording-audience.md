@@ -3,7 +3,7 @@ title: Podcasting - Getting Started - Whys and Hows
 date: 2019-06-14 01:22
 description: Generally speaking, podcasting gives specific audiences an in-depth specialized analysis without the need to appeal to the general audience.
 tags: podcasting
-featuredImage: /media/wp-images/leogdion/2019/06/melanie-dretvic-699931-unsplash-469-1.jpg
+featuredImage: /media/wp-assets/media/wp-assets/default/2019/06/melanie-dretvic-699931-unsplash-469-1.jpg
 ---
 It has been at least 15 years but I remember as soon as iTunes came to
 Windows, I downloaded podcasts. For example, it could have been the
@@ -48,7 +48,7 @@ a podcast**.
 
 <figure class="aligncenter is-resized">
 <img
-src="https://leogdion.name/wp-content/uploads/2019/06/melanie-dretvic-699931-unsplash-469-1.jpg"
+src="/media/wp-assets/default/2019/06/melanie-dretvic-699931-unsplash-469-1.jpg"
 class="wp-image-214" width="320" height="297"
 alt="A Confused Giraffe" />
 </figure>
@@ -103,7 +103,7 @@ engaging content is perhaps the most important.
 
 <figure class="wp-block-image is-resized">
 <img
-src="https://leogdion.name/wp-content/uploads/2019/06/patrick-tomasso-71909-unsplash-690-e1560427978579.jpeg"
+src="/media/wp-assets/default/2019/06/patrick-tomasso-71909-unsplash-690-e1560427978579.jpeg"
 class="wp-image-196" width="1024" height="576" alt="Content" />
 </figure>
 
@@ -137,7 +137,7 @@ content organized.
 
 <figure class="wp-block-image is-resized">
 <img
-src="https://leogdion.name/wp-content/uploads/2019/06/samuel-zeller-360588-unsplash-703-e1560428158796.jpeg"
+src="/media/wp-assets/default/2019/06/samuel-zeller-360588-unsplash-703-e1560428158796.jpeg"
 class="wp-image-194" width="1024" height="514"
 alt="Organizing Your Production" />
 </figure>
@@ -200,7 +200,7 @@ notes and a regular recording schedule, let’s talk about recording.
 
 <figure class="wp-block-image is-resized">
 <img
-src="https://leogdion.name/wp-content/uploads/2019/06/neil-godding-179009-unsplash-687-e1560428370863.jpeg"
+src="/media/wp-assets/default/2019/06/neil-godding-179009-unsplash-687-e1560428370863.jpeg"
 class="wp-image-211" width="1024" height="512"
 alt="Recording Equipement" />
 </figure>
@@ -322,7 +322,7 @@ question then becomes where to upload your file.
 
 <figure class="wp-block-image">
 <img
-src="https://leogdion.name/wp-content/uploads/2019/06/mick-haupt-1321397-unsplash-692-e1560428606907.jpeg"
+src="/media/wp-assets/default/2019/06/mick-haupt-1321397-unsplash-692-e1560428606907.jpeg"
 class="wp-image-198" alt="Hosting Your Audio" />
 </figure>
 
@@ -504,14 +504,13 @@ large audience, you begin to focus other written content as well and
 gauge interest accordingly.
 
 <figure class="aligncenter is-resized">
-<a
-href="https://leogdion.name/wp-content/uploads/2019/06/Podcasting-Process.pdf"
+<a href="/media/wp-assets/default/2019/06/Podcasting-Process.pdf"
 target="_blank" rel="noreferrer noopener"><img
-src="https://leogdion.name/wp-content/uploads/2019/06/Podcasting-Process.png"
+src="/media/wp-assets/default/2019/06/Podcasting-Process.png"
 class="wp-image-231" width="395" height="512"
 alt="Podcasting Process Diagram" /></a>
 <figcaption><a
-href="https://leogdion.name/wp-content/uploads/2019/06/Podcasting-Process.pdf"
+href="/media/wp-assets/default/2019/06/Podcasting-Process.pdf"
 target="_blank" rel="noreferrer noopener"
 aria-label="Podcasting Process Diagram, Download PDF Here (opens in a new tab)">Podcasting
 Process Diagram, Download PDF Here</a></figcaption>

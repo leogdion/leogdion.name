@@ -1,4 +1,5 @@
 import Foundation
+import LeoGDionNameSite
 import ContributeWordPress
 
 #if canImport(FoundationNetworking)
@@ -6,23 +7,49 @@ import ContributeWordPress
 #endif
 
 public extension LeoGDionNameSiteCommand.ImportCommand.WordPress {
-  // ex: ./Content
+  // ex: Content
   var contentPathURL: URL {
-    URL(fileURLWithPath: exportMarkdownDirectory, relativeTo: FileManager.default.currentDirectoryURL)
+    URL(
+      fileURLWithPath: exportMarkdownDirectory,
+      relativeTo: FileManager.default.currentDirectoryURL
+    )
   }
 
-  // ex: ./Resources
+  // ex: Resources
   var resourcesPathURL: URL {
-    URL(fileURLWithPath: exportResourcesDirectory, relativeTo: FileManager.default.currentDirectoryURL)
+    URL(
+      fileURLWithPath: exportResourcesDirectory,
+      relativeTo: FileManager.default.currentDirectoryURL
+    )
   }
 
-  // ex: ./Import/WordPress
+  // ex: Import/WordPress
   var directoryURL: URL {
-    URL(fileURLWithPath: wordpressExportsDirectory, relativeTo: FileManager.default.currentDirectoryURL)
+    URL(
+      fileURLWithPath: wordpressExportsDirectory,
+      relativeTo: FileManager.default.currentDirectoryURL
+    )
   }
 
-  // ex: ./Resources/media/wp-images
-  var resourceImagePathURL: URL {
-    resourcesPathURL.appendingPathComponent(imageRelativePath)
+  // ex: Resources/media/wp-assets
+  var resourceAssetPathURL: URL {
+    resourcesPathURL.appendingPathComponent(assetRelativePath)
+  }
+
+  // ex: WordPress/html/
+  var importAssetPathURL: URL? {
+    guard let importAssetsDirectory = importAssetsDirectory else {
+      return nil
+    }
+
+    return URL(
+      fileURLWithPath: importAssetsDirectory,
+      relativeTo: FileManager.default.currentDirectoryURL
+    )
+  }
+
+  // ex: https://leogdion.name
+  var assetsSiteURL: URL {
+    LeoGDionNameSite.SiteInfo.url
   }
 }
