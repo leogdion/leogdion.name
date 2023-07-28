@@ -31,6 +31,6 @@ public struct LeoGDionNameSite: Website {
 
 public extension LeoGDionNameSite {
   func publish(includeDrafts: Bool) throws {
-    try publish(withTheme: .foundation)
+    try publish(withTheme: .personal)
   }
 }
