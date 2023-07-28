@@ -30,7 +30,10 @@ public extension LeoGDionNameSiteCommand.ImportCommand {
 
     @Flag(help: "Skip Downloading Assets.")
     public var skipDownload: Bool = false
-
+    
+    @Option(help: "Root address for your Wordpress Site (ex. https://leogdion.name/).")
+    public var rootSiteURL: URL?
+    
     public init() { }
 
     public static func markdownFrom(html: String) throws -> String {
