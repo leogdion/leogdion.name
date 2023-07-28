@@ -18,7 +18,7 @@ public struct LeoGDionNameSite: Website {
     public static let name = "Leo G Dion"
     public static let title = "Leo G Dion"
     // TODO: @Leo, We need site description
-    public static let description = "description"
+    public static let description = "The personal site of Leo G Dion"
     public static let imagePath: Path = "/android-chrome-512x512.png"
   }
 

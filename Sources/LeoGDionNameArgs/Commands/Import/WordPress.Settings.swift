@@ -50,6 +50,6 @@ public extension LeoGDionNameSiteCommand.ImportCommand.WordPress {
 
   // ex: https://leogdion.name
   var assetsSiteURL: URL {
-    LeoGDionNameSite.SiteInfo.url
+    rootSiteURL ?? LeoGDionNameSite.SiteInfo.url
   }
 }
