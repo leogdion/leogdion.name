@@ -7,14 +7,9 @@ featuredImage: /media/wp-assets/media/wp-assets/default/2019/06/melanie-dretvic-
 ---
 It has been at least 15 years but I remember as soon as iTunes came to
 Windows, I downloaded podcasts. For example, it could have been the
-software development podcast,
-<a href="https://dotnetrocks.com" rel="noreferrer noopener"
-aria-label="dotNet Rocks (opens in a new tab)" target="_blank">dotNet
-Rocks</a>, or the financial podcast,
-<a href="https://www.npr.org/sections/money/" target="_blank"
-rel="noreferrer noopener"
-aria-label="Planet Money (opens in a new tab)">Planet Money</a>, giving
-a narration and analysis of the 2008 Financial Crash as it happened.
+software development podcast, <a href="https://dotnetrocks.com" rel="noreferrer noopener"
+aria-label="dotNet Rocks (opens in a new tab)" target="_blank">dotNet Rocks</a>, or the financial podcast, <a href="https://www.npr.org/sections/money/" target="_blank"
+rel="noreferrer noopener" aria-label="Planet Money (opens in a new tab)">Planet Money</a>, giving a narration and analysis of the 2008 Financial Crash as it happened.
 **Generally speaking, podcasting as these podcasts do, gives specific
 audiences an in-depth specialized analysis without the need to appeal to
 the general audience.**
@@ -34,14 +29,7 @@ That means:
 -   [Hosting and Publishing](#podcasting-hosts-and-publishing)
 -   [Reaching Your Audience](http://reaching-your-podcast-audience)
 
-<figure
-class="wp-block-embed-youtube wp-block-embed is-type-video is-provider-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio">
-<div class="wp-block-embed__wrapper">
-https://www.youtube.com/watch?v=ojL0JPZrAGE
-</div>
-<figcaption>Recent Talk I did at Lansing Marketing Hackers on
-Podcasting</figcaption>
-</figure>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ojL0JPZrAGE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 First of all, the \#1 question you should ask is **why you should start
 a podcast**.
@@ -251,21 +239,14 @@ software to record your audio.
 #### Recording and Editing Your Audio
 
 Recording software can be fairly simple and inexpensive. For example,
-there’s free software such as
-<a href="https://www.apple.com/mac/garageband/" target="_blank"
-rel="noreferrer noopener"
-aria-label="Garageband (opens in a new tab)">Garageband</a> and
-<a href="https://www.audacityteam.org" rel="noreferrer noopener"
-aria-label="Audacity (opens in a new tab)" target="_blank">Audacity</a>
-for macOS and Windows/Linux respectively. However, if you are planning
+there’s free software such as <a href="https://www.apple.com/mac/garageband/" target="_blank"
+rel="noreferrer noopener" aria-label="Garageband (opens in a new tab)">Garageband</a> and
+<a href="https://www.audacityteam.org" rel="noreferrer noopener" aria-label="Audacity (opens in a new tab)" target="_blank">Audacity</a> for macOS and Windows/Linux respectively. However, if you are planning
 to edit your podcast then it maybe worth your money to purchase
-something like:
-<a href="https://www.apple.com/logic-pro/" rel="noreferrer noopener"
+something like: <a href="https://www.apple.com/logic-pro/" rel="noreferrer noopener"
 aria-label="Apple’s Logic Pro (opens in a new tab)"
-target="_blank">Apple’s Logic Pro</a> or
-<a href="https://www.adobe.com/products/audition.html"
-rel="noreferrer noopener"
-aria-label="Adobe Audition (opens in a new tab)" target="_blank">Adobe
+target="_blank">Apple’s Logic Pro</a> or <a href="https://www.adobe.com/products/audition.html"
+rel="noreferrer noopener" aria-label="Adobe Audition (opens in a new tab)" target="_blank">Adobe
 Audition</a> which give you more granular control over editing
 functionality.
 
@@ -276,15 +257,10 @@ challenges. For example there are recording apps such as
 <a href="https://zencastr.com" target="_blank" rel="noreferrer noopener"
 aria-label="Zencaster (opens in a new tab)">Zencaster</a> which
 specialize in this. Additionally, you could also record your interview
-over a conferencing service like
-<a href="https://zoom.us" rel="noreferrer noopener"
-aria-label="Zoom (opens in a new tab)" target="_blank">Zoom</a> or
-<a href="https://hangouts.google.com" rel="noreferrer noopener"
-aria-label="Google Hangouts (opens in a new tab)" target="_blank">Google
+over a conferencing service like <a href="https://zoom.us" rel="noreferrer noopener"
+aria-label="Zoom (opens in a new tab)" target="_blank">Zoom</a> or <a href="https://hangouts.google.com" rel="noreferrer noopener" aria-label="Google Hangouts (opens in a new tab)" target="_blank">Google
 Hangouts</a> strip the audio portion and turn that into an episode.
-Surprisingly though, the conferencing choice of most podcasters is
-<a href="https://www.skype.com/" rel="noreferrer noopener"
-aria-label="Skype (opens in a new tab)" target="_blank">Skype</a>.
+Surprisingly though, the conferencing choice of most podcasters is <a href="https://www.skype.com/" rel="noreferrer noopener" aria-label="Skype (opens in a new tab)" target="_blank">Skype</a>.
 However you’ll want to record you and your interviewee on separate
 tracks. For instance as a macOS user, I use Soundflower to map my audio
 channels properly (i.e. my microphone and Skype audio to separate
@@ -303,8 +279,7 @@ filters to do this).
 
 Editing can also be the most time consuming. For this reason, I’ve
 started [outsourcing my editing](https://www.podcastedition.com).
-Another alternative is using something like
-<a href="http://descript.com/" rel="noreferrer noopener"
+Another alternative is using something like <a href="http://descript.com/" rel="noreferrer noopener"
 target="_blank">Descript</a>, a next-generation audio/video editing
 platform. I primarily use it for transcribing episodes but it’s actually
 capable of doing full audio and video editing. Lastly, we’ll need to
@@ -409,10 +384,8 @@ to verify this and be patient as it can take several days.
 
 Go to [Spotify for Podcasters](https://podcasters.spotify.com) and
 submit your RSS feed and validate. Some podcast host services offer this
-automatically such as
-<a href="https://transistor.fm/?via=leo" target="_blank"
-rel="noreferrer noopener"
-aria-label="Transistor.FM (opens in a new tab)">Transistor.FM</a>[.](https://podcasters.spotify.com)
+automatically such as <a href="https://transistor.fm/?via=leo" target="_blank"
+rel="noreferrer noopener" aria-label="Transistor.FM (opens in a new tab)">Transistor.FM</a>[.](https://podcasters.spotify.com)
 
 ##### Stitcher
 
