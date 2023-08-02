@@ -38,8 +38,11 @@ let package = Package(
                 name: "ArgumentParser",
                 package: "swift-argument-parser"
               ),
-              "LeoGDionNameSite",
-              "ContributeWordPress"
+              .product(
+                name: "ContributeWordPress",
+                package: "ContributeWordPress"
+              ),
+              "LeoGDionNameSite"
             ]
         ),
         .target(
