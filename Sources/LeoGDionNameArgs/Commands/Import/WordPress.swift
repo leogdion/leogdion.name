@@ -20,7 +20,7 @@ public extension LeoGDionNameSiteCommand.ImportCommand {
 
     @Option(help: "Destination directory for markdown files.")
     public var exportMarkdownDirectory: String
-
+    
     @Option(help: "Path to Save Images Relative to Resources.")
     public var assetRelativePath = "media/wp-assets"
 
