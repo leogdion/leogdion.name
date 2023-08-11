@@ -24,7 +24,7 @@ public extension LeoGDionNameSiteCommand.ImportCommand.WordPress {
   }
 
   // ex: Import/WordPress
-  var directoryURL: URL {
+  var exportsDirectoryURL: URL {
     URL(
       fileURLWithPath: wordpressExportsDirectory,
       relativeTo: FileManager.default.currentDirectoryURL

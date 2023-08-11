@@ -23,7 +23,7 @@ let package = Package(
         ),
         .package(
           url: "https://github.com/brightdigit/ContributeWordPress.git",
-          from: "1.0.0-alpha.2"
+          from: "1.0.0-alpha.3"
         )
     ],
     targets: [

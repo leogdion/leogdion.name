@@ -3,8 +3,7 @@ import ArgumentParser
 import ContributeWordPress
 
 public extension LeoGDionNameSiteCommand.ImportCommand {
-  struct WordPress: ParsableCommand, WordPressMarkdownProcessorSettings {
-
+  struct WordPress: ParsableCommand, ProcessorSettings {
     public static var configuration = CommandConfiguration(
       commandName: "wordpress",
       abstract: "Command for import WordPress export file into the LeoGDion site."
@@ -36,12 +35,14 @@ public extension LeoGDionNameSiteCommand.ImportCommand {
     
     public init() { }
 
-    public static func markdownFrom(html: String) throws -> String {
+    public func markdownFrom(html: String) throws -> String {
       try LeoGDionNameSiteCommand.ImportCommand.markdownGenerator.markdown(fromHTML: html)
     }
 
     public func run() throws {
-      var processor = try WordPressMarkdownProcessor(postFilters: [
+      let processor = try MarkdownProcessor(
+        redirectFromatter: NetlifyRedirectFormatter(),
+        postFilters: [
         RegexKeyPostFilter(pattern: "post", keyPath: \.type),
         RegexKeyPostFilter(pattern: "publish", keyPath: \.status)
       ])
