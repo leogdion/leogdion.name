@@ -28,14 +28,10 @@ public extension LeoGDionNameSiteCommand.ImportCommand {
     @Flag(help: "Skip Downloading Assets.")
     public var skipDownload: Bool = false
     
-    @Option(help: "Root address for your Wordpress Site (ex. https://leogdion.name/).")
-    public var rootSiteURL: URL?
-    
     public init() { }
 
 
     public func run() throws {
-      let assetImportSetting = self.importAssetPathURL.map(AssetImportSetting.copyFilesFrom) ?? .download
       try MarkdownProcessor.beginImport(
         from: self.exportsDirectoryURL,
         to: self.rootPublishPathURL,

@@ -15,7 +15,6 @@ public extension LeoGDionNameSiteCommand.ImportCommand.WordPress {
     )
   }
 
-
   // ex: Import/WordPress
   var exportsDirectoryURL: URL {
     URL(
@@ -23,23 +22,15 @@ public extension LeoGDionNameSiteCommand.ImportCommand.WordPress {
       relativeTo: FileManager.default.currentDirectoryURL
     )
   }
-
-
-  // ex: WordPress/html/
-  var importAssetPathURL: URL? {
-    guard let importAssetsDirectory = importAssetsDirectory else {
-      return nil
-    }
-
-    return URL(
-      fileURLWithPath: importAssetsDirectory,
-      relativeTo: FileManager.default.currentDirectoryURL
-    )
-  }
-
-  // ex: https://leogdion.name
-  var assetsSiteURL: URL {
-    rootSiteURL ?? LeoGDionNameSite.SiteInfo.url
-  }
   
+  var assetImportSetting: AssetImportSetting {
+    switch (importAssetsDirectory, skipDownload) {
+    case (.some(let directory), _):
+      return .copyFilesFrom(.init(fileURLWithPath: directory, relativeTo: FileManager.default.currentDirectoryURL))
+    case (.none, true):
+      return .none
+    default:
+      return .download
+    }
+  }
 }
