@@ -23,8 +23,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/brightdigit/Contribute.git",
       "state" : {
-        "revision" : "958759a8857c55ee84d5504ad88e653d5e87c61f",
-        "version" : "1.0.0-alpha.1"
+        "revision" : "5db9f5d03b9f009702cc4ec508162d8db6b00491",
+        "version" : "1.0.0-alpha.5"
       }
     },
     {
@@ -32,8 +32,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/brightdigit/ContributeWordPress.git",
       "state" : {
-        "revision" : "bff9c9c8f9c6750f59d17a52166b5b285e26eb70",
-        "version" : "1.0.0-alpha.2"
+        "revision" : "6dceda3ea4c7df328311ecc516b7adb11865df5a",
+        "version" : "1.0.0"
       }
     },
     {
@@ -95,8 +95,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/apple/swift-argument-parser.git",
       "state" : {
-        "revision" : "fee6933f37fde9a5e12a1e4aeaa93fe60116ff2a",
-        "version" : "1.2.2"
+        "revision" : "8f4d2753f0e4778c76d5f05ad16c74f707390531",
+        "version" : "1.2.3"
       }
     },
     {
@@ -104,8 +104,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/brightdigit/SyndiKit.git",
       "state" : {
-        "revision" : "238c8d85a94b67072c8fafcb4feff1b6df11d87b",
-        "version" : "0.3.3"
+        "revision" : "0a077415a1ae3d20fb0327fdc3837442f7298708",
+        "version" : "0.3.7"
       }
     },
     {

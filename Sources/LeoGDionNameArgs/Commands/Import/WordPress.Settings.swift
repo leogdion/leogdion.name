@@ -8,48 +8,29 @@ import ContributeWordPress
 
 public extension LeoGDionNameSiteCommand.ImportCommand.WordPress {
   // ex: Content
-  var contentPathURL: URL {
+  var rootPublishPathURL: URL {
     URL(
-      fileURLWithPath: exportMarkdownDirectory,
-      relativeTo: FileManager.default.currentDirectoryURL
-    )
-  }
-
-  // ex: Resources
-  var resourcesPathURL: URL {
-    URL(
-      fileURLWithPath: exportResourcesDirectory,
+      fileURLWithPath: publishSiteDirectory,
       relativeTo: FileManager.default.currentDirectoryURL
     )
   }
 
   // ex: Import/WordPress
-  var directoryURL: URL {
+  var exportsDirectoryURL: URL {
     URL(
       fileURLWithPath: wordpressExportsDirectory,
       relativeTo: FileManager.default.currentDirectoryURL
     )
   }
-
-  // ex: Resources/media/wp-assets
-  var resourceAssetPathURL: URL {
-    resourcesPathURL.appendingPathComponent(assetRelativePath)
-  }
-
-  // ex: WordPress/html/
-  var importAssetPathURL: URL? {
-    guard let importAssetsDirectory = importAssetsDirectory else {
-      return nil
+  
+  var assetImportSetting: AssetImportSetting {
+    switch (importAssetsDirectory, skipDownload) {
+    case (.some(let directory), _):
+      return .copyFilesFrom(.init(fileURLWithPath: directory, relativeTo: FileManager.default.currentDirectoryURL))
+    case (.none, true):
+      return .none
+    default:
+      return .download
     }
-
-    return URL(
-      fileURLWithPath: importAssetsDirectory,
-      relativeTo: FileManager.default.currentDirectoryURL
-    )
-  }
-
-  // ex: https://leogdion.name
-  var assetsSiteURL: URL {
-    rootSiteURL ?? LeoGDionNameSite.SiteInfo.url
   }
 }

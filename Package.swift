@@ -23,7 +23,7 @@ let package = Package(
         ),
         .package(
           url: "https://github.com/brightdigit/ContributeWordPress.git",
-          from: "1.0.0-alpha.2"
+          from: "1.0.0"
         )
     ],
     targets: [
@@ -38,8 +38,11 @@ let package = Package(
                 name: "ArgumentParser",
                 package: "swift-argument-parser"
               ),
-              "LeoGDionNameSite",
-              "ContributeWordPress"
+              .product(
+                name: "ContributeWordPress",
+                package: "ContributeWordPress"
+              ),
+              "LeoGDionNameSite"
             ]
         ),
         .target(

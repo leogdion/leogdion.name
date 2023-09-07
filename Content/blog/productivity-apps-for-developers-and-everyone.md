@@ -1,9 +1,9 @@
 ---
 title: Productivity Apps for Developers (and Everyone Else)
-date: 2019-08-01 13:24
+date: 2019-08-01 06:24
 description: It's important to keep a set of great productivity app which help me optimize rather than distract. Here's a list of productivity apps and services to help you.
 tags: productivity, software
-featuredImage: /media/wp-assets/media/wp-assets/default/2019/07/patrick-lindenberg-1iVKwElWrPA-unsplash-e1564280406506-1024x512.jpg
+featuredImage: /media/wp-assets/leogdion/2019/07/patrick-lindenberg-1iVKwElWrPA-unsplash-e1564280406506-1024x512.jpg
 ---
 As a software developer who’s transitioned to many roles as a
 self-employed freelancer, it’s important to keep a set of great software
@@ -16,7 +16,7 @@ and track your application as well as your computer’s disk space.
 
 <figure class="aligncenter is-resized">
 <img
-src="/media/wp-assets/default/2019/07/patrick-lindenberg-1iVKwElWrPA-unsplash-e1564280406506-1024x512.jpg"
+src="/media/wp-assets/leogdion/2019/07/patrick-lindenberg-1iVKwElWrPA-unsplash-e1564280406506-1024x512.jpg"
 class="wp-image-254" width="1024" height="512"
 alt="Managing Your Disk Space" />
 </figure>
@@ -52,7 +52,7 @@ time.
 
 <figure class="aligncenter is-resized">
 <img
-src="/media/wp-assets/default/2019/07/eric-rothermel-FoKO4DpXamQ-unsplash-e1564280204228-1024x512.jpg"
+src="/media/wp-assets/leogdion/2019/07/eric-rothermel-FoKO4DpXamQ-unsplash-e1564280204228-1024x512.jpg"
 class="wp-image-251" width="1024" height="512"
 alt="Managing Your Time" />
 </figure>
@@ -74,7 +74,7 @@ tracking.
 
 <figure class="aligncenter is-resized">
 <img
-src="/media/wp-assets/default/2019/07/glenn-carstens-peters-RLw-UC03Gwc-unsplash-e1564280558255-1024x512.jpg"
+src="/media/wp-assets/leogdion/2019/07/glenn-carstens-peters-RLw-UC03Gwc-unsplash-e1564280558255-1024x512.jpg"
 class="wp-image-256" width="1024" height="512"
 alt="Tracking Your Todo List" />
 </figure>
@@ -100,7 +100,7 @@ priorities over, set new priorities for the week, and repeat.
 
 <figure class="aligncenter is-resized">
 <img
-src="/media/wp-assets/default/2019/07/neonbrand-Ak5c5VTch5E-unsplash-e1564280607730-1024x512.jpg"
+src="/media/wp-assets/leogdion/2019/07/neonbrand-Ak5c5VTch5E-unsplash-e1564280607730-1024x512.jpg"
 class="wp-image-257" width="1024" height="512"
 alt="Writing and Notes" />
 </figure>
@@ -143,7 +143,7 @@ video as well.
 
 <figure class="aligncenter is-resized">
 <img
-src="/media/wp-assets/default/2019/06/neil-godding-179009-unsplash-687-e1560428361178-1024x512.jpeg"
+src="/media/wp-assets/leogdion/2019/06/neil-godding-179009-unsplash-687-e1560428361178-1024x512.jpeg"
 class="wp-image-211" width="1024" height="512"
 alt="Recording Multimedia" />
 </figure>
@@ -182,7 +182,7 @@ share it with my audience.
 
 <figure class="aligncenter is-resized">
 <img
-src="/media/wp-assets/default/2019/07/sara-kurfess-6lcT2kRPvnI-unsplash-e1564280259581-1024x512.jpg"
+src="/media/wp-assets/leogdion/2019/07/sara-kurfess-6lcT2kRPvnI-unsplash-e1564280259581-1024x512.jpg"
 class="wp-image-252" width="1024" height="512"
 alt="Social Media Apps" />
 </figure>
@@ -206,7 +206,7 @@ and clients.
 
 <figure class="aligncenter is-resized">
 <img
-src="/media/wp-assets/default/2019/07/room-B_8FwpJICIo-unsplash-e1564280315200-1024x512.jpg"
+src="/media/wp-assets/leogdion/2019/07/room-B_8FwpJICIo-unsplash-e1564280315200-1024x512.jpg"
 class="wp-image-253" width="768" height="384"
 alt="Chatting and Meeting" />
 </figure>
