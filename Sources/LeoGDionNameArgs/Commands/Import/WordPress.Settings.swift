@@ -8,20 +8,13 @@ import ContributeWordPress
 
 public extension LeoGDionNameSiteCommand.ImportCommand.WordPress {
   // ex: Content
-  var contentPathURL: URL {
+  var rootPublishPathURL: URL {
     URL(
-      fileURLWithPath: exportMarkdownDirectory,
+      fileURLWithPath: publishSiteDirectory,
       relativeTo: FileManager.default.currentDirectoryURL
     )
   }
 
-  // ex: Resources
-  var resourcesPathURL: URL {
-    URL(
-      fileURLWithPath: exportResourcesDirectory,
-      relativeTo: FileManager.default.currentDirectoryURL
-    )
-  }
 
   // ex: Import/WordPress
   var exportsDirectoryURL: URL {
@@ -31,10 +24,6 @@ public extension LeoGDionNameSiteCommand.ImportCommand.WordPress {
     )
   }
 
-  // ex: Resources/media/wp-assets
-  var resourceAssetPathURL: URL {
-    resourcesPathURL.appendingPathComponent(assetRelativePath)
-  }
 
   // ex: WordPress/html/
   var importAssetPathURL: URL? {

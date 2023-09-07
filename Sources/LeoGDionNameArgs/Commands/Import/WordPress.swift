@@ -1,9 +1,10 @@
 import Foundation
 import ArgumentParser
+import Contribute
 import ContributeWordPress
 
 public extension LeoGDionNameSiteCommand.ImportCommand {
-  struct WordPress: ParsableCommand, ProcessorSettings {
+  struct WordPress: ParsableCommand {
     public static var configuration = CommandConfiguration(
       commandName: "wordpress",
       abstract: "Command for import WordPress export file into the LeoGDion site."
@@ -14,12 +15,9 @@ public extension LeoGDionNameSiteCommand.ImportCommand {
 
     @Option(help: "Directory which contains images, pdf files, and other assets.", completion: CompletionKind.directory)
     public var importAssetsDirectory: String?
-
-    @Option(help: "Base directory for image downloads, redirect files, and other resources.", completion: CompletionKind.directory)
-    public var exportResourcesDirectory: String
-
-    @Option(help: "Destination directory for markdown files.")
-    public var exportMarkdownDirectory: String
+    
+    @Option
+    public var publishSiteDirectory : String = ""
     
     @Option(help: "Path to Save Images Relative to Resources.")
     public var assetRelativePath = "media/wp-assets"
@@ -35,18 +33,17 @@ public extension LeoGDionNameSiteCommand.ImportCommand {
     
     public init() { }
 
-    public func markdownFrom(html: String) throws -> String {
-      try LeoGDionNameSiteCommand.ImportCommand.markdownGenerator.markdown(fromHTML: html)
-    }
 
     public func run() throws {
-      let processor = try MarkdownProcessor(
-        redirectFromatter: NetlifyRedirectFormatter(),
-        postFilters: [
-        RegexKeyPostFilter(pattern: "post", keyPath: \.type),
-        RegexKeyPostFilter(pattern: "publish", keyPath: \.status)
-      ])
-      try processor.begin(withSettings: self)
+      let assetImportSetting = self.importAssetPathURL.map(AssetImportSetting.copyFilesFrom) ?? .download
+      try MarkdownProcessor.beginImport(
+        from: self.exportsDirectoryURL,
+        to: self.rootPublishPathURL,
+        redirectsFormattedUsing: NetlifyRedirectFormatter(),
+        importAssetsBy: assetImportSetting,
+        overwriteAssets: overwriteAssets,
+        usingGenerator: PandocMarkdownGenerator()
+      )
     }
   }
 }
